@@ -17,15 +17,22 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 api.init_app(app)
 
-# # Route for home page (root URL)
-# @app.route('/')
-# def home():
-#     return "Welcome to the Wedding Vendor Marketplace!"  # Simple message or you could render a template
-
 # Route for home page (root URL)
 @app.route('/')
 def home():
     return render_template('index.html')  # Render the HTML template
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/privacy")
+def privacy():
+    return render_template("privacy.html")
 
 # # Create the database tables (run this once)
 # @app.before_first_request
