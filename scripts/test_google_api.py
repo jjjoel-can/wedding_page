@@ -16,6 +16,9 @@ LOCATION = "37.6,13.4"  # Latitude and longitude for Sicily
 RADIUS = 1000000  # 100 km radius
 BASE_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 
+# Get the current file's directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
 # list of keywords
 keywords = ["wedding", "venue", "bridal", "event planner", "photographer", "bride", "wedding planer"]
 
@@ -39,9 +42,12 @@ for keyword in keywords:
             pretty_data = json.dumps(data, indent=4)
             print(pretty_data)
             
-            # Save the JSON response to a file
-            with open(f'response_{keyword}.json', 'w') as json_file:
+            # Save the JSON response to a file in the current folder
+            file_name = f'response_{keyword.replace(" ", "_")}.json'
+            file_path = os.path.join(current_dir, file_name)
+            with open(file_path, 'w') as json_file:
                 json.dump(data, json_file, indent=4)
+            print(f"Response saved to {file_path}")
             
             for place in data.get("results", []):
                 print(f"Name: {place['name']}")
