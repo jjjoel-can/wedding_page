@@ -1,0 +1,103 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2713112,
+                    "lng": 13.6162401
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.27274627989273,
+                        "lng": 13.61769222989272
+                    },
+                    "southwest": {
+                        "lat": 37.27004662010728,
+                        "lng": 13.61499257010727
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Antonella Paradiso - Wedding Planner Sicilia",
+            "photos": [
+                {
+                    "height": 1400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109387246324454550459\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbkQjuY-VbZS6_srNkEvz0EVz-AujBe3LTpjm-hMt6lygZhHCoasrBV_wpMJ05zGJenkkF31kXkvdr_SV8T25H2yoWnFammsaCbg2ys1G-w-mjZ0IHPNqjuiO2iGBPTnBJ_zHMPS9qVlholWV6NFZCB3-gxvNByWhgYdvhQsmAbNsJkw",
+                    "width": 2100
+                }
+            ],
+            "place_id": "ChIJObSBIlCBEBMR7CWzP0IAg40",
+            "plus_code": {
+                "compound_code": "7JC8+GF Villaggio Mos\u00e8, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7JC8+GF"
+            },
+            "rating": 5,
+            "reference": "ChIJObSBIlCBEBMR7CWzP0IAg40",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "Via Lombardia, 8, Villaggio Mos\u00e8"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3110301,
+                    "lng": 13.5721891
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.31241962989272,
+                        "lng": 13.57357542989272
+                    },
+                    "southwest": {
+                        "lat": 37.30971997010728,
+                        "lng": 13.57087577010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "AMORI INFINITI",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104380002131336639575\">Marco La Mendola</a>"
+                    ],
+                    "photo_reference": "AVzFdbmXI0eVp7n0KPYwOu3Zpuk4-uurghBaw2tkE5JKoDojbpfMVVkEBtHhktlPo3ORINttK7E655L6XdJmtgYrxaulHadmKqyNbtmNmE-2fji3hUWHJh2L9L-J1SSwHpyz13J55xyYzVS42Q5Cj5JBMnGIFCawDpu0hM7xYGkNoxhULkvp",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJwe1wwB-DEBMRkThEkbaOyao",
+            "plus_code": {
+                "compound_code": "8H6C+CV Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H6C+CV"
+            },
+            "rating": 5,
+            "reference": "ChIJwe1wwB-DEBMRkThEkbaOyao",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "Via Dante Alighieri, 233, Agrigento"
+        }
+    ],
+    "status": "OK"
+}

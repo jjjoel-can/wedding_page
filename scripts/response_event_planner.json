@@ -1,0 +1,995 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AVzFdbk-08S3GEMnuvTp2PHeeZkG26UXAu1c7PmMgiQjPo2DUwqNrTKweDsL4tpO_I2jf3-0erj_wZA0D9H2Mcphl7YkBx7Nvh6OhE2cbwfIGtphmQtgkhu_On4z6k5l-ZMhxhAwgykurYQwVuabT5IO7y5o3peB4tk065rKvgIq6LB9Ia4lNOZu6-kPspX3wcAN9fkdkdDDO32Gt3u8GXXM4CUDuOLdtJF1XWY0udRN3kHALikahoCwsSvwsMmG1_AwKNfrfV3l0aPv7lwMLLjwGC3SF95GwsOQNf6qdbRjvkQVwf7k67kwFrk0oHvIoOuV9fb5KKLMY-TgA4CdlIzX53SmRcfWTCT2qyZRUu5f-QLD86uYilc7Xl-_GiFjUoAz71B0FUrXYUyASxazQxmo0_bsoXyOvEV4Ihd3mRtfCm6PT-R3Fns9BNlmrcNTiLuj",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.0496791,
+                    "lng": 13.5269821
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.05102807989272,
+                        "lng": 13.52833177989272
+                    },
+                    "southwest": {
+                        "lat": 38.04832842010727,
+                        "lng": 13.52563212010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Marinella Event Planner",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101781585520047268586\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbn9OOx6paXiqqedggbqpYmYu7F8rgzpc757U5KV5HujLnGXEkO2lR8E-RTmvNW8u4-7zV6pycB9EIH6RuoX_A0FHmuJ7haiqsccU9TUPi0-ZLiWXajHR6nPMfp40R1m8dUFFbt9-fz2QWS26Ryny2qzHujSH-Tg5E3QFFZY78WbHaEl",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJQegH6ivjGRMRx2tgcyfOHjE",
+            "plus_code": {
+                "compound_code": "2GXG+VQ Casteldaccia, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM2GXG+VQ"
+            },
+            "rating": 5,
+            "reference": "ChIJQegH6ivjGRMRx2tgcyfOHjE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Via U. La Malfa, 10, Casteldaccia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.23995660000001,
+                    "lng": 13.9302308
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.24142917989272,
+                        "lng": 13.93177717989272
+                    },
+                    "southwest": {
+                        "lat": 37.23872952010728,
+                        "lng": 13.92907752010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Villa Letizia Events Experience",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 790,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115427806759319348005\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbm6wFYuz8aMStY1VTnI_9nxHZ4gGtFLBnPSLbcnO9OtTh1A3zo1dZlKFtXeA7QSBIzgJ3QqW1HTigDbC-_K8lURq0JKo36qeLDhJgypW5LAkJ5eOYgBOyDQ7F54Obz_C6m9voekUC1Bgo8BFEdCeY3wxZ-S_nm_DBRt34r247br5fuD",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJyVbzUA3zEBMRn3zPFauKOHA",
+            "plus_code": {
+                "compound_code": "6WQJ+X3 Campobello di Licata, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M6WQJ+X3"
+            },
+            "rating": 4.9,
+            "reference": "ChIJyVbzUA3zEBMRn3zPFauKOHA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 18,
+            "vicinity": "Contrada Milici, Campobello di Licata"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9749081,
+                    "lng": 13.1950327
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.97629907989273,
+                        "lng": 13.19637772989272
+                    },
+                    "southwest": {
+                        "lat": 37.97359942010728,
+                        "lng": 13.19367807010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Giorgia Salamone Wedding Event Planner",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117532012531205569322\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnRsc-nu9epDpZJCKha7FIwPGq7Cp1IoLCb9312kmbhyeWYXnCBpCRUOscXYXiR_QJ8T-y9r7wA24ge1ojHG7vHpgigaaSULPYotuqQZz_-lGAF2ytQnEkPr4PgejLEsEGJ-924E42uMCA0SAmAWY93HrVJuu_uRXJxKteT475t1Ntl",
+                    "width": 1200
+                }
+            ],
+            "place_id": "ChIJY9Zi-Wv1GRMReZd38YMg4-M",
+            "plus_code": {
+                "compound_code": "X5FW+X2 San Giuseppe Jato, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MX5FW+X2"
+            },
+            "rating": 5,
+            "reference": "ChIJY9Zi-Wv1GRMReZd38YMg4-M",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Via Palermo, San Giuseppe Jato"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9847934,
+                    "lng": 13.6985521
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.98614727989272,
+                        "lng": 13.69989017989272
+                    },
+                    "southwest": {
+                        "lat": 37.98344762010728,
+                        "lng": 13.69719052010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Il Sarto degli Eventi",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3489,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113854832455423726758\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnF7TPTKUTpXSaPZCnZnebzYdlGDGHA70jLEzOlNnhJwlbVaoTuLVMuQJcXNozk_9F5Z3OBjy4YUs2D0DBixX1vRgHu_W9hovfbaTodlzVJG7ZsZleEA_SDMWV9YHr43h3VUH8u6qcAMsZXUyv2duTGjy9jmupqKJBFvf4cTT-bvJth",
+                    "width": 5233
+                }
+            ],
+            "place_id": "ChIJb4mV1iNRFxMRqw8iq7nqVaw",
+            "plus_code": {
+                "compound_code": "XMMX+WC Termini Imerese, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXMMX+WC"
+            },
+            "rating": 4.9,
+            "reference": "ChIJb4mV1iNRFxMRqw8iq7nqVaw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 45,
+            "vicinity": "Via Vittorio Emanuele, 102, Termini Imerese"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.8156137,
+                    "lng": 13.2988607
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.81698562989272,
+                        "lng": 13.30026657989272
+                    },
+                    "southwest": {
+                        "lat": 37.81428597010727,
+                        "lng": 13.29756692010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "La Soffitta della Nonna",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101359344189698755941\">Simona Di Puma</a>"
+                    ],
+                    "photo_reference": "AVzFdbnPmR2x5uOomffUmAL-FwqsqSdGqtP6xr7QO3kZNuD4GUXSQ1dLXQUzHkbPD-nvMf7XiWHHfH4SP9q8rjoPsjj7m3xyRdiO0S1mpUgKZxP22kwFRwY8st5h3fRf9EhmKugXPrCDmaiGwlU1kNrWYYszZtP2RBs5KIlZZYUi9Gl_EohO",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJ7QIhGnccGhMR1cbK9D1Z9XQ",
+            "plus_code": {
+                "compound_code": "R78X+6G Corleone, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MR78X+6G"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ7QIhGnccGhMR1cbK9D1Z9XQ",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 22,
+            "vicinity": "Via Don Giovanni Colletto, 8, Corleone"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2754659,
+                    "lng": 13.611989
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.27693977989272,
+                        "lng": 13.61353452989272
+                    },
+                    "southwest": {
+                        "lat": 37.27424012010728,
+                        "lng": 13.61083487010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Balloon Style Eventi",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 612,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104640493092167843541\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmZEC7Ym_hefogUakbSBE_pveCt7xsst8nQuchM2SJ1PdBzGDfzPa17CZfBc_6b5NGHwmorEntVgDuF1tLtCfHkptj7l51oFTYWQEd01JahnqpIyaNWfs-ZPHjyIwzw7gN5VVR8Drd5StTqMrErywKn5buFoSCJQZrdexp2phFCDkJo",
+                    "width": 799
+                }
+            ],
+            "place_id": "ChIJ-3VWit6DEBMRqggW3Ltw7GU",
+            "plus_code": {
+                "compound_code": "7JG6+5Q Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7JG6+5Q"
+            },
+            "rating": 4.9,
+            "reference": "ChIJ-3VWit6DEBMRqggW3Ltw7GU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "Viale Leonardo Sciascia, 100, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.90416949999999,
+                    "lng": 13.8164637
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.90548207989272,
+                        "lng": 13.81783332989272
+                    },
+                    "southwest": {
+                        "lat": 37.90278242010728,
+                        "lng": 13.81513367010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Lieti Eventi di Bartolotta Maria Antonia",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 924,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109777729752299288946\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmKXvJ9PE5Egoe-itT2EccBOab8skGNoWo_Bw6uVCXwxyaGSFDLviajiRqc2zFgkBuElsOP5MuMu_YMe1s1kY0EKvUb-ucXC_5DAbL6kq2jOqcfzT_jj9ICyNo5bdzlnStcJmqAyiAsN04YFpfuF3DufQ8nOgN8GZQJGli5PZ1WQHfD",
+                    "width": 1640
+                }
+            ],
+            "place_id": "ChIJA-fQbxZNFxMRJIv4v7pYfhg",
+            "plus_code": {
+                "compound_code": "WR38+MH Cerda, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MWR38+MH"
+            },
+            "rating": 5,
+            "reference": "ChIJA-fQbxZNFxMRJIv4v7pYfhg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Via Vittorio Emanuele, 14, Cerda"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9733199,
+                    "lng": 13.1906751
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.97468352989272,
+                        "lng": 13.19201227989272
+                    },
+                    "southwest": {
+                        "lat": 37.97198387010727,
+                        "lng": 13.18931262010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Luxury Events di Lidia Termine",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105477049659417181449\">Dario Cefal\u00f9</a>"
+                    ],
+                    "photo_reference": "AVzFdblo2wiBwzP1Szmi6EbHK12GQ6cmuIOP_UI4Snx6RZmTeJIYFOkE9NHtdZqZcA-nMcopPmTHn5OiXnydCOvjdKvoYR1DKfOHlXXd2uzQLA-xelSm_9JkUd_uXJFsNbvCQSeS3GrxqmMK04z-VunuAUP2mKuJrwWN3Tp-MJ5lyEH5gdTt",
+                    "width": 1532
+                }
+            ],
+            "place_id": "ChIJ3QYqFF71GRMRlpO9MJCGg_E",
+            "plus_code": {
+                "compound_code": "X5FR+87 San Giuseppe Jato, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MX5FR+87"
+            },
+            "rating": 5,
+            "reference": "ChIJ3QYqFF71GRMRlpO9MJCGg_E",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Via Piana degli Albanesi, 106, San Giuseppe Jato"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9740835,
+                    "lng": 12.9580788
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.97543572989272,
+                        "lng": 12.95937832989272
+                    },
+                    "southwest": {
+                        "lat": 37.97273607010727,
+                        "lng": 12.95667867010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "FABBRICA DEI SENSI",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1365,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111558633296770436905\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmPy1lx8sIp09I-Ew45mmzteG2jUSoGH_HA9qPX8dt6ahfAq4Pfs1U9oa3pEGckLT-Cd0j5SDpYWH63t-S1pIpFndMKLqElXukV0LMJoJAlLDO7bGa2FuC0WVe1TCQW-zAE7Osxx0OncTKbHHUrtfSukDo_Re1cB1Ee94S4jurjHxg8",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJL7H5lzIqGhMRxcww7BVtdnY",
+            "plus_code": {
+                "compound_code": "XXF5+J6 Alcamo, Free municipal consortium of Trapani, Italy",
+                "global_code": "8F9JXXF5+J6"
+            },
+            "rating": 4.7,
+            "reference": "ChIJL7H5lzIqGhMRxcww7BVtdnY",
+            "scope": "GOOGLE",
+            "types": [
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 12,
+            "vicinity": "Via Francesco Mistretta, 8, Alcamo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.312261,
+                    "lng": 13.585741
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.31362402989272,
+                        "lng": 13.58712742989272
+                    },
+                    "southwest": {
+                        "lat": 37.31092437010728,
+                        "lng": 13.58442777010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tourist Service",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2988,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102304385880388505034\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnDW-jkbxNSkUdK4oDTUaRcoml0DaZZh724u0BksUq_bhIlzZVX7CRBaIdpdksAqEvI4G00_GkycrEVzvVnHIc3ikINv868CnOKeCgsLIh_C_ogMF1FwMGiY7KfaJNEf0giZVajZ1jNi9RAMcKd3_omxP62R72uSD3yookIJMkkUb5Y",
+                    "width": 5312
+                }
+            ],
+            "place_id": "ChIJv486KVOCEBMRJGIO1W1cd8U",
+            "plus_code": {
+                "compound_code": "8H6P+W7 Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H6P+W7"
+            },
+            "rating": 4.4,
+            "reference": "ChIJv486KVOCEBMRJGIO1W1cd8U",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "travel_agency",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 14,
+            "vicinity": "Via Imera, 27, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3044361,
+                    "lng": 13.5891626
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.30584377989272,
+                        "lng": 13.59047987989272
+                    },
+                    "southwest": {
+                        "lat": 37.30314412010728,
+                        "lng": 13.58778022010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Lorella Carusotto Wedding & Event Planner - Loridea",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2129,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117430436860656313079\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbkrgM0LComxipLyCVSN199phkuiShokf0NKBtJOU-nrvmMnEe3tAk-l6oLmoUpP597jq4Id1UsnOGcQLNa_CuRKIODSwTZCYuLiZMKZYHPzz0WXBvQl8xkLsH1Ejl0z13XMWeUmdjeZbNoRDIkxLOKZUIHochmX3p9TGDzXZw7jcEGN",
+                    "width": 3641
+                }
+            ],
+            "place_id": "ChIJsXduz8WDEBMRvtnrMq9OvmU",
+            "plus_code": {
+                "compound_code": "8H3Q+QM Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H3Q+QM"
+            },
+            "rating": 5,
+            "reference": "ChIJsXduz8WDEBMRvtnrMq9OvmU",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 45,
+            "vicinity": "Via Esseneto, 107, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3110301,
+                    "lng": 13.5721891
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.31241962989272,
+                        "lng": 13.57357542989272
+                    },
+                    "southwest": {
+                        "lat": 37.30971997010728,
+                        "lng": 13.57087577010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "AMORI INFINITI",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1068,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111900081581383314080\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbkq_Dw-qVe3Est8jmVQgSvlQ8IYX5PYdSmh7sQg4swCZOkJe0rCVH0t-vK9NvZAjzIwNsJlfpXinzfQnfptsZM0ZyoexSuu0WqzmZ1FGr1PdZcv2L_cTIr5E1bok9hZycjVSZcDi30gDVq8Do1mhxNDBZyiiG-XBUYfauik_2yMgkjP",
+                    "width": 1600
+                }
+            ],
+            "place_id": "ChIJwe1wwB-DEBMRkThEkbaOyao",
+            "plus_code": {
+                "compound_code": "8H6C+CV Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H6C+CV"
+            },
+            "rating": 5,
+            "reference": "ChIJwe1wwB-DEBMRkThEkbaOyao",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "Via Dante Alighieri, 233, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3230674,
+                    "lng": 13.6660195
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.32438357989273,
+                        "lng": 13.66737917989272
+                    },
+                    "southwest": {
+                        "lat": 37.32168392010728,
+                        "lng": 13.66467952010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "HIP POP Revolution",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 733,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115308802274006207990\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnuGnESoCan4rKlmnni350T3OXNcglQrRRJxQYb1Go5KAn5KIu2RH9MKy_1ipdNyABlurdhYHhtw72uBjd4gA3naYAsf87cisds5ZR8qxzcea8ZAmIFM_Sy0TP55Q_BttRkTcd2cbOQXS9Jop-C3o94UA2eQzxi-v1d0xidgPkXPb0",
+                    "width": 1050
+                }
+            ],
+            "place_id": "ChIJo9-nLjWFEBMRtEs2fLYJrPI",
+            "plus_code": {
+                "compound_code": "8MF8+6C Favara, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8MF8+6C"
+            },
+            "rating": 0,
+            "reference": "ChIJo9-nLjWFEBMRtEs2fLYJrPI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Via Giuseppe Fava, 41, Favara"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.38932,
+                    "lng": 13.6256013
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.39069617989272,
+                        "lng": 13.62695207989272
+                    },
+                    "southwest": {
+                        "lat": 37.38799652010728,
+                        "lng": 13.62425242010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "TRINACRIA MOTORS",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 576,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100120521237046509798\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbna9ku3anj_sh64jBGtHkbbNVfd-GfFwCJQ9eYTv8PvloVY-sssXwybX8_xsnFjNSIADcOyMPbQTEOZTkq6gDdQxKXm4egPjmHew2uwEtGYwaNVyal0CKykOxpZ4e8KN8Yg-GWr1AESz19MFPURmnBADh1GGMPm1mU7M72uilkRC87W",
+                    "width": 1023
+                }
+            ],
+            "place_id": "ChIJN0_Kb4WcEBMRMaGOrqZQeVY",
+            "plus_code": {
+                "compound_code": "9JQG+P6 Aragona, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9JQG+P6"
+            },
+            "rating": 4.7,
+            "reference": "ChIJN0_Kb4WcEBMRMaGOrqZQeVY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Via Salvatore Licata, 11, Aragona"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9906907,
+                    "lng": 13.8848911
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.99205337989272,
+                        "lng": 13.88619272989272
+                    },
+                    "southwest": {
+                        "lat": 37.98935372010728,
+                        "lng": 13.88349307010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "WONDERLAND",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 725,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115237824141311746981\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbl76184Lm8uorGuHJ85WS9LwVVlsryTM-xc4N4PusEcCr4G4k3lqgE8kjGdBQ0PQwf-gjX40pHcLCcRnzqeEhgFSmbBCTudEAzTucwwByHTAU0ujzrAdl6TMlPL7hB24MpFjlxB7rlBhK7O-Dnq45WPSfgMQPw7_AS6om4OIVV3rrB4",
+                    "width": 1290
+                }
+            ],
+            "place_id": "ChIJQaCeo9VJFxMRdtvMLc7p_eg",
+            "plus_code": {
+                "compound_code": "XVRM+7X Campofelice di Roccella, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXVRM+7X"
+            },
+            "rating": 5,
+            "reference": "ChIJQaCeo9VJFxMRdtvMLc7p_eg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "Via Cesare Civello, 31, Campofelice di Roccella"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.5047262,
+                    "lng": 13.078575
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.50616722989272,
+                        "lng": 13.08018037989272
+                    },
+                    "southwest": {
+                        "lat": 37.50346757010728,
+                        "lng": 13.07748072010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Jamurria collective",
+            "photos": [
+                {
+                    "height": 5988,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109056673380120258843\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnD7XnIcXCVYjSqHl4OKsmDzJMg3w98bX1aVRH5Ac9fkf1V5k5NgZYAaJyrfZIzMfDHfWxEsyszHfKzDaJdkZIe7gF10PmbGZKywGl0NV7E3oPyr2haIwnNelq2MFawDrQbR-Ia2-zn7kSrhzMrxn1L6sPit6gEIfB3fHWikbzNi61p",
+                    "width": 6956
+                }
+            ],
+            "place_id": "ChIJQ8ALJQRHGhMRiQhewG7ZqoI",
+            "plus_code": {
+                "compound_code": "G33H+VC Sciacca, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MG33H+VC"
+            },
+            "rating": 5,
+            "reference": "ChIJQ8ALJQRHGhMRiQhewG7ZqoI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Via Nairobi, Sciacca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.1920773,
+                    "lng": 13.7641589
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.19339992989273,
+                        "lng": 13.76549092989272
+                    },
+                    "southwest": {
+                        "lat": 37.19070027010729,
+                        "lng": 13.76279127010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Dreams Events Wedding Planner",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109634522757495915889\">Antonio Cucurullo</a>"
+                    ],
+                    "photo_reference": "AVzFdbmLpxLcBuaNopbp-pmd5YQiCeUq934MljOlUuDqXsTp4C2GTYX2Cifd0gvTagEd11lK2rGte3lZy6BqZRPviL61C53XVLHAdXSSY7et35vZj3TaTIauQxjvUE0cNFnzmSEkKUmDjpQ27KJ0Osa3HyMRQURD7Vv4vNQiOaQV_U4UXeW8",
+                    "width": 1125
+                }
+            ],
+            "place_id": "ChIJSzDyduOJEBMRJ-TcW_2sSd4",
+            "plus_code": {
+                "compound_code": "5QR7+RM Palma di Montechiaro, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M5QR7+RM"
+            },
+            "rating": 2.1,
+            "reference": "ChIJSzDyduOJEBMRJ-TcW_2sSd4",
+            "scope": "GOOGLE",
+            "types": [
+                "art_gallery",
+                "jewelry_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "Corso Giovanni Battista Odierna, 491, Palma di Montechiaro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2560726,
+                    "lng": 13.9124929
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.25742692989272,
+                        "lng": 13.91384272989272
+                    },
+                    "southwest": {
+                        "lat": 37.25472727010727,
+                        "lng": 13.91114307010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Loco Event",
+            "place_id": "ChIJk6gs4huNEBMRcMmdSX_DzpU",
+            "plus_code": {
+                "compound_code": "7W46+CX Campobello di Licata, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7W46+CX"
+            },
+            "rating": 5,
+            "reference": "ChIJk6gs4huNEBMRcMmdSX_DzpU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Via Giosu\u00e8 Carducci, 45, Campobello di Licata"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9589839,
+                    "lng": 13.4370343
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.96042322989273,
+                        "lng": 13.43842257989272
+                    },
+                    "southwest": {
+                        "lat": 37.95772357010728,
+                        "lng": 13.43572292010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Villa Patr\u00ec",
+            "photos": [
+                {
+                    "height": 2976,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116999798656026365542\">Denny Fiore</a>"
+                    ],
+                    "photo_reference": "AVzFdbm1PUkcQYExXpMDUXY-dBXH3tvgxppGHlF9ryS4XWMzs-MQs3IPahFK_r6kOKkC9V5thTN8hFZ-YkjIYgsjFBuqZ1uK6gmehYQOcQtGlYYKrto1Ewhqfm7qU2rE-Q5hfNNCpyu3MFU8PFTRRrDl1jHT8GMpzYkQEGP4Z7iJrT3JbALy",
+                    "width": 3968
+                }
+            ],
+            "place_id": "ChIJfRzjwPv7GRMRZ9b8eH9_hAc",
+            "plus_code": {
+                "compound_code": "XC5P+HQ Marineo, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXC5P+HQ"
+            },
+            "rating": 4.4,
+            "reference": "ChIJfRzjwPv7GRMRZ9b8eH9_hAc",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 218,
+            "vicinity": "Contrada, Regia Trazzera Roccabianca, snc, Marineo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.0196058,
+                    "lng": 12.8831108
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.02095662989272,
+                        "lng": 12.88444747989272
+                    },
+                    "southwest": {
+                        "lat": 38.01825697010727,
+                        "lng": 12.88174782010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Wedding Luxury Sicily",
+            "photos": [
+                {
+                    "height": 751,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112649926298821642446\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmLVfT-Ep4XoLvfq6RMbgwbnLI26ixEGHpOTZ9JG2rSn7F_DwebSm3JFMFev9S06Vu1tMIjedI3pA_HUTZe51Q-jz1SckOxz3JfAQ1uhUqiXbjebR3VgZtDvkRkJBrpqsDMetFakOMlYlBeDzeER2GkL_FmstSTJ7SEEuJdtF_bCql1",
+                    "width": 1131
+                }
+            ],
+            "place_id": "ChIJZ61Ly1uBGRMR-exNprwjxE4",
+            "plus_code": {
+                "compound_code": "2V9M+R6 Castellammare del Golfo, Free municipal consortium of Trapani, Italy",
+                "global_code": "8FCJ2V9M+R6"
+            },
+            "rating": 5,
+            "reference": "ChIJZ61Ly1uBGRMR-exNprwjxE4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Via Francesco Crispi, Castellammare del Golfo"
+        }
+    ],
+    "status": "OK"
+}

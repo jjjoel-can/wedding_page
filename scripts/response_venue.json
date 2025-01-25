@@ -1,0 +1,995 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AVzFdbmlR--2cjYGBrU5fcSQb6wKXIfLwJJ06x1qCDL9f_IzTF_8MlHKSBJF_yMZ4uxZX1w_ITZ2tMAqiEsb7wTkdqdb5oayNVeDRaVsnb7FxW1KDKJ2DEPl6zxBuNb9m6N3LUSYAbw2CjfnF_QEuvpJqi2mJYyEPQdPmexNvFjsQ0P_8jBp9SnaaXn9oNH62Hq4NKu7qsE4nzcQMvPoPNGHGxFLS-8-D2K6Jscp87YJ0PIjmyN5SQ8bNgeVaJvxJaiQfreU5FPTqPiYu-XuqaZ8iBQzqCjRcwu5mutdjHv3zPWfgQHBs0O9ppq37rWx1ibrJntaMCn47YrxORR-C-hkVTaN9RNunzeatS-m0XZdvFyyCFVtNuJYC2TWqNc5aGmpJI2OC2y9QIjt4eWSSnM4tZzG42gbOxgOMbJJU2ku9oW50-Vxd5nEbw",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9021408,
+                    "lng": 13.4747915
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.90348722989272,
+                        "lng": 13.47613817989272
+                    },
+                    "southwest": {
+                        "lat": 37.90078757010728,
+                        "lng": 13.47343852010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "TOUCHE' RICEVIMENTI - Cefala Diana",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 567,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106342065024670193579\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbn6BwkfnceIzf47zKIxVgBRwqdZOPVgXYzJX2FgCg2ik3u7aXRmmVfXe4gPraCRGLk_0ZVoi9qVtVdKEY6v7EEiYZty3nXq7Dld36S0PSCtXYWDoxtziGW9YqQ3XJTdfRNmvwjJVL_4yc-xr1ObmocAyt0vk2dpxMBUScbXgjP_PO0Z",
+                    "width": 567
+                }
+            ],
+            "place_id": "ChIJt1R-yV7_GRMR-_8StRUbVEE",
+            "plus_code": {
+                "compound_code": "WF2F+VW San Lorenzo, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MWF2F+VW"
+            },
+            "rating": 5,
+            "reference": "ChIJt1R-yV7_GRMR-_8StRUbVEE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "San Lorenzo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.5353157,
+                    "lng": 13.627671
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.53682357989273,
+                        "lng": 13.62875957989272
+                    },
+                    "southwest": {
+                        "lat": 37.53412392010728,
+                        "lng": 13.62605992010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Santa Croce all'Eremo Casteltermini",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1334,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104717193946892376909\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbksT7XtIWnuwDmD7G01A4k2U-DvQAdeQ1BDlqiJHmmtMKRgLQrLidE0bfW8aLmxtbix3B09QnV1xuabn86FPPqZbMW9lcpLK2wrT0w1ubJAANJSX0qcq8OQ9rBgfPCcPsjum-AEFL-altysKNgfSpDqbJjHyZrUyVHscJPt_YPxzrUf",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJAx929fChEBMRkx73gZo7zeE",
+            "plus_code": {
+                "compound_code": "GJPH+43 Casteltermini, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MGJPH+43"
+            },
+            "rating": 4.8,
+            "reference": "ChIJAx929fChEBMRkx73gZo7zeE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 468,
+            "vicinity": "SP20, Casteltermini"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9653399,
+                    "lng": 13.4622826
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.96669622989273,
+                        "lng": 13.46365517989272
+                    },
+                    "southwest": {
+                        "lat": 37.96399657010728,
+                        "lng": 13.46095552010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Villa Ikebana Ricevimenti",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 607,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110777933702724494396\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbn5N8ycg_zS5lJMrljHtcUQEdIHtT-otPmEJQEamrHYYr-JIQlKB-LajPJrIkXFX-GeBAdy55WrbxKfZaaapG608ezhoYxjr2Rm9lkWk2dMKtPTZtEKYGr4ym-ZK33nB-zG_76MevtCtHibGMV1wZB7WsHetsT5XNOTEXxJGCn_ZZZw",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJzzIRqgT8GRMRNcDpUg1qPUM",
+            "plus_code": {
+                "compound_code": "XF86+4W Bolognetta, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXF86+4W"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJzzIRqgT8GRMRNcDpUg1qPUM",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 414,
+            "vicinity": "PA-AG, km 238+150, SS121, Bolognetta"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.0092475,
+                    "lng": 13.449421
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.01060287989272,
+                        "lng": 13.45014507989272
+                    },
+                    "southwest": {
+                        "lat": 38.00790322010727,
+                        "lng": 13.44744542010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Casale Amato - Matrimoni tra gli ulivi",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2736,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110162319678924407332\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnAmJsy1Xzo95BkY1VGxrlTf98cc3fspbFdtTBR9GYqLKHKh8oButDXiOWQ0Avtp3k0dGPov7xQAGcNRRZDYhruz5pcKeD4kThXQQ41_0aEUL5oC_YdkcG6kAroy20X6G5Ev2hkHBKM3zsfAm7kvSRWyosXPv3nERuAkxGg_9Xj-zBa",
+                    "width": 3648
+                }
+            ],
+            "place_id": "ChIJb70Fz337GRMRFj59B7UyQ10",
+            "plus_code": {
+                "compound_code": "2C5X+MQ Misilmeri, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM2C5X+MQ"
+            },
+            "rating": 4.5,
+            "reference": "ChIJb70Fz337GRMRFj59B7UyQ10",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 358,
+            "vicinity": "Casale Amato, SP77, n.92, Misilmeri"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9979958,
+                    "lng": 13.5124695
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.99932842989272,
+                        "lng": 13.51379027989272
+                    },
+                    "southwest": {
+                        "lat": 37.99662877010727,
+                        "lng": 13.51109062010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Cozzo dei Ciauli",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 540,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104943078027742122714\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdblDDfShj-jg1G3QaUSUih00NORczuINKlTuSulQc9-HmO4PFN7BJh8Vj34f3XGRhznDqPKe8DG6aKkHD4YdbS7sdE9f1z-8pG5lrbdE8wGJeKWHqlF_8cbHEBhCuxiBlSTanF7_ePLTKZET79YwVUYwAprHIb4l4CoFXXwcVToZXXox",
+                    "width": 960
+                }
+            ],
+            "place_id": "ChIJf8DVBYr9GRMRvVi0dSO79gE",
+            "plus_code": {
+                "compound_code": "XGX6+5X Ventimiglia di Sicilia, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXGX6+5X"
+            },
+            "rating": 5,
+            "reference": "ChIJf8DVBYr9GRMRvVi0dSO79gE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 19,
+            "vicinity": "Contrada Accia, Ventimiglia di Sicilia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9956633,
+                    "lng": 13.4469847
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.99701507989272,
+                        "lng": 13.44836222989272
+                    },
+                    "southwest": {
+                        "lat": 37.99431542010728,
+                        "lng": 13.44566257010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Villa ciglietti",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3648,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108370806152199876089\">Dora Di Giacinto</a>"
+                    ],
+                    "photo_reference": "AVzFdblcF2Fswh7fO-PTMPuiiig5rr1vtXKrzzQQ7p1chN_9r3AHNzOrBpW3kxIzPjfs6wF9jgfe_-B9bEbWlKVCLJy5vwbWMPqBsWbx1RGFmSNbc2Uv3mMLvBix2n1JW1JM0AR6-XM-IZMkpSbQLZPeMnbAajvIIXHjiT9RgYJzZ197bqho",
+                    "width": 2736
+                }
+            ],
+            "place_id": "ChIJAQAA5Hn8GRMRcjknB4GqFAg",
+            "plus_code": {
+                "compound_code": "XCWW+7Q Masseria d'Amari, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXCWW+7Q"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJAQAA5Hn8GRMRcjknB4GqFAg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 205,
+            "vicinity": "90036 c, Masseria D'amari"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9752731,
+                    "lng": 12.9735488
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.97677547989272,
+                        "lng": 12.97467462989272
+                    },
+                    "southwest": {
+                        "lat": 37.97407582010727,
+                        "lng": 12.97197497010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Baglio Santa Lucia",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104638210579083796871\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbkjfGy61tFBN08_PNmkZP0jH6K58ffQ2gZ0S0Hpkpi_CrK0at8RJn2YA_2HpBg3ewnjvX0cfcdR6JmtlhhX-d93wSAn6W2D_n3oei4txL-uBuL8hd_jqKR6N9lFtkmHFxmmBY075hQ-39d1zdmkVX7xVQNyLViT01JRx3akkaGLUrhV",
+                    "width": 4928
+                }
+            ],
+            "place_id": "ChIJ6QLpCkaHGRMRa3OSUqF_KVU",
+            "plus_code": {
+                "compound_code": "XXGF+4C Alcamo, Free municipal consortium of Trapani, Italy",
+                "global_code": "8F9JXXGF+4C"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ6QLpCkaHGRMRa3OSUqF_KVU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 393,
+            "vicinity": "Via Pier Maria Rosso, 41, Alcamo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7999316,
+                    "lng": 13.6360373
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.80130042989273,
+                        "lng": 13.63734737989272
+                    },
+                    "southwest": {
+                        "lat": 37.79860077010728,
+                        "lng": 13.63464772010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tenuta Don Vincenzo eventi e ricevimenti",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 810,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106393671937786486198\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnXrRQeRk-jAPR-jOnly5vgGA1zIS8eUAVb1iQv2f6QzKC2GpRKLMIcyJEpTeqESOEyY1V4YLhFa0lKE5WTCn9pVl9osQqjl9uNjX2wpNftcBTQzyWpqVHfwBLmasOjNsVSaTkkogdrw-MjUEvt0Zul0ylN92bcXNa-lXbHEQ6lK2zv",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJlbnQslarEBMRS6vJ9y37GwE",
+            "plus_code": {
+                "compound_code": "QJXP+XC Roccapalumba, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MQJXP+XC"
+            },
+            "rating": 4.8,
+            "reference": "ChIJlbnQslarEBMRS6vJ9y37GwE",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 134,
+            "vicinity": "Via Case Vecchie, 14, Roccapalumba"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3381725,
+                    "lng": 13.4195449
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.33949862989272,
+                        "lng": 13.42047547989272
+                    },
+                    "southwest": {
+                        "lat": 37.33679897010727,
+                        "lng": 13.41777582010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Castello Chiaramonte",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 847,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100942457446752000565\">benedetto pignataro</a>"
+                    ],
+                    "photo_reference": "AVzFdbm1hE0CdXsZ-2oTv4soNQTknrX8bBXQcYOKPS-gCrcKKUkfAabOfsDKchxlCIS-6g-IxekkbBiudz7Pj88PEkNdf96FOjxheZJMoZAzO1mR7VE6EVlwsCZdPPkvSRygxmhI16PbUuz5sR8wjw3ECuPMbQ1ZH_pzvci0LdzFh9rkEv3v",
+                    "width": 1284
+                }
+            ],
+            "place_id": "ChIJYb3tuEx6GhMRHqlhvGt4i_o",
+            "plus_code": {
+                "compound_code": "8CQ9+7R Siculiana, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8CQ9+7R"
+            },
+            "rating": 4.7,
+            "reference": "ChIJYb3tuEx6GhMRHqlhvGt4i_o",
+            "scope": "GOOGLE",
+            "types": [
+                "museum",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1040,
+            "vicinity": "Via Circonvallazione, 44, Siculiana"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3388252,
+                    "lng": 13.4199867
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.34023087989272,
+                        "lng": 13.42136682989272
+                    },
+                    "southwest": {
+                        "lat": 37.33753122010728,
+                        "lng": 13.41866717010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Parco Chiaramontano",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 605,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117399051075174942287\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmWWMxKMrnDqOJjUhsV9RmrLq6uZ2LXqb67VqsOiDtwB9UAW8adCyzyFOJdP7pScUs_9WTeLd3jqs9DnYLFjjR9ZnyipVGT0S8NJ8giVvMyvnPyIRACVc4CtCXGCucySPQzUHD_05MV7upRXS0IVJNZir6hMT6zzfoAUwywSyBlZ_Nt",
+                    "width": 1078
+                }
+            ],
+            "place_id": "ChIJ61qeJk16GhMRBf0NnmZqFTQ",
+            "plus_code": {
+                "compound_code": "8CQ9+GX Siculiana, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8CQ9+GX"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ61qeJk16GhMRBf0NnmZqFTQ",
+            "scope": "GOOGLE",
+            "types": [
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 457,
+            "vicinity": "Via Circonvallazione, 44A, Siculiana"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.6287882,
+                    "lng": 13.640586
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.63013762989272,
+                        "lng": 13.64194502989272
+                    },
+                    "southwest": {
+                        "lat": 37.62743797010728,
+                        "lng": 13.63924537010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Ves Wedding",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 894,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101591301514282840162\">stefanocairone</a>"
+                    ],
+                    "photo_reference": "AVzFdblExkDQHpUSh1HUyIbVgP0K4TeCSDoWu3ljxzyAij5zsgtbupm10kz8FStjDPHsOxDG9_R5tWrmn4TI17GWdYbgf-jJXeWD4OZvWB-n7MHzlGBi_EZ-f3nQ0T4Q_mrSXDfvgXiNmi31TrVy5Ot_-zWSgjPmlB8AVSgUKtGz0mJ_SSX1",
+                    "width": 1341
+                }
+            ],
+            "place_id": "ChIJB64jl6ilEBMRK4q8pEQK7xA",
+            "plus_code": {
+                "compound_code": "JJHR+G6 San Giovanni Gemini, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MJJHR+G6"
+            },
+            "rating": 5,
+            "reference": "ChIJB64jl6ilEBMRK4q8pEQK7xA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Via Teatro, 53, San Giovanni Gemini"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.8227045,
+                    "lng": 13.5313963
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.82465377989272,
+                        "lng": 13.53439435
+                    },
+                    "southwest": {
+                        "lat": 37.82195412010728,
+                        "lng": 13.53039695
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Casale San Leonardo",
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100027302159564384782\">Casale San Leonardo</a>"
+                    ],
+                    "photo_reference": "AVzFdbl6YaJ9tg4_YETTnI6TCIiiFpI3Hbqek2AauqCEKDdDN02JnjqYVEIh7n_VjHqEnxpDnsZnxRL4TKdIGb3vgpwQDO5Wu8VB4Ea4xv1mBO5Shdj2kUJ3G_RcDv2Ii9Vp2ZM_gakFfkZ_FZOU0ZP3VfKQzlCfHyky4CpNl2jlGHj58MIE",
+                    "width": 1200
+                }
+            ],
+            "place_id": "ChIJ1WdTp4gAGhMRWanII_lE7HI",
+            "plus_code": {
+                "compound_code": "RGFJ+3H Campofelice di Fitalia, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MRGFJ+3H"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ1WdTp4gAGhMRWanII_lE7HI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 683,
+            "vicinity": "Contrada Valle di Zasa, Campofelice di Fitalia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2959271,
+                    "lng": 13.5111264
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.29720417989272,
+                        "lng": 13.51245587989272
+                    },
+                    "southwest": {
+                        "lat": 37.29450452010727,
+                        "lng": 13.50975622010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Festalunga Band",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJLwKjUO15GhMRyrO2GbFy7Zk",
+            "plus_code": {
+                "compound_code": "7GW6+9F Porto Empedocle, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7GW6+9F"
+            },
+            "rating": 5,
+            "reference": "ChIJLwKjUO15GhMRyrO2GbFy7Zk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Via Ernesto Basile, 3, Porto Empedocle"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.460827,
+                    "lng": 13.6046525
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.46232562989272,
+                        "lng": 13.60615542989272
+                    },
+                    "southwest": {
+                        "lat": 37.45962597010728,
+                        "lng": 13.60345577010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Massaria Papia",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107287955064584052928\">Massaria Papia</a>"
+                    ],
+                    "photo_reference": "AVzFdbmtRgEBhC5I7crjCGFCw1GARb2vgmhpT0vgs3qLJ1Bi2jg2yi25GF9LSaUeqw0OIMadIzRuFSbBM-fTKV7fKZIqqkLC5nhjoHxAT6yfFikwVZww-IUDAl8ZHvI-JLoAjNnU6pcrEWMcYh-X7Pmey6rQQNUMbdTZjIiLY1SCx8WASAuJ",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJz08VAZOeEBMRdh6l7hA4EMY",
+            "plus_code": {
+                "compound_code": "FJ63+8V Aragona, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MFJ63+8V"
+            },
+            "rating": 4.6,
+            "reference": "ChIJz08VAZOeEBMRdh6l7hA4EMY",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 196,
+            "vicinity": "C.da Salto d'Angi\u00f2 Sp40c, Aragona"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3864725,
+                    "lng": 13.5539652
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.38788602989272,
+                        "lng": 13.55551852989272
+                    },
+                    "southwest": {
+                        "lat": 37.38518637010728,
+                        "lng": 13.55281887010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Castello Ducale Colonna",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117817567977988513845\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmq8lPYTgaHBhoQV6kb6occmqMBBiPakYREKWh_2Q_aKap0K4FBAO9WydTNES7O_qNTt0PzxJ3jCEYBw97LvTpNst-xgSmNT9ArTWpaEBC7AAMykrD6-6xq32R7KILYHzvEWTWP9pR4V-gQ-Xkul4hvk5bHlrOCsJKROasSEINhepgc",
+                    "width": 1037
+                }
+            ],
+            "place_id": "ChIJ4-rDyWedEBMR7Yzb7eJ08QI",
+            "plus_code": {
+                "compound_code": "9HP3+HH Joppolo Giancaxio, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9HP3+HH"
+            },
+            "rating": 4.7,
+            "reference": "ChIJ4-rDyWedEBMR7Yzb7eJ08QI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 395,
+            "vicinity": "Via John Fitzgerald Kennedy, 44, Joppolo Giancaxio"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.4473824,
+                    "lng": 13.2316939
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.44873107989272,
+                        "lng": 13.23304472989272
+                    },
+                    "southwest": {
+                        "lat": 37.44603142010727,
+                        "lng": 13.23034507010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Parco degli Aranci 2",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100737741352904096677\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdblqcRkv_tWbALLVAy8DHXx0KDKLuUosOamtyWqL_GSFoo5_gO_8xHnzoqXzGO8ZU_QieLmVJ2pYLBKYQAgzjj0N8akW13ZV4UCub6YfJG99XDquyhq4y7aGRV_AsDs5SzuqeLEJOm2AtOrNLsbROF2QwBRDBDoQj2CCV3S4hs2BZSqd",
+                    "width": 1080
+                }
+            ],
+            "place_id": "ChIJEUL_SwNpGhMRj-NbzAO0YXg",
+            "plus_code": {
+                "compound_code": "C6WJ+XM Seccagrande, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MC6WJ+XM"
+            },
+            "rating": 4.4,
+            "reference": "ChIJEUL_SwNpGhMRj-NbzAO0YXg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 912,
+            "vicinity": "SS115, Bivio, Seccagrande"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.1961161,
+                    "lng": 13.958631
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.19796167989272,
+                        "lng": 13.95991032989272
+                    },
+                    "southwest": {
+                        "lat": 37.19526202010728,
+                        "lng": 13.95721067010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "La Corte dei mori",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111540860496397101569\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnmjC7def7nFhjROr0cwX5hiBxZRQ-BEYWLcHhSCqqLBRJUeq8rnWrdxOEcQt_s_JuKQR3VhQkiE83zmqXESTH5bDe2ZB50IVzexaeJ1y6I1waATYuMkg7_6ihBkbwrd_uKYzYuLcohVGOw2elk1Gl8h6Q12j8bfh_UhMf3YPSAEGPx",
+                    "width": 6240
+                }
+            ],
+            "place_id": "ChIJ_Wa-4WX1EBMRuiHVYU_-NxE",
+            "plus_code": {
+                "compound_code": "5XW5+CF Campobello di Licata, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M5XW5+CF"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ_Wa-4WX1EBMRuiHVYU_-NxE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 100,
+            "vicinity": "SS626 Dir Localit\u00e0 Bifara, Campobello di Licata"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.015232,
+                    "lng": 13.0719881
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.01662797989272,
+                        "lng": 13.07341142989272
+                    },
+                    "southwest": {
+                        "lat": 38.01392832010728,
+                        "lng": 13.07071177010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Mira Matrimoni ed Eventi",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115681882815228134077\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnC6HbLrhTt980L1qpBSTm0euKwXqze7s_XmZwNzGbobHcCPyFuR2x_7PHjsoeXa7BBKJ3coKLwjc9i8JNROJNOwMWr0gx3qg3qgH7npfL9ysk9TLmx8LZ0ZkQhG_2UykDtasPN1gWUkbwWhtd5Tu69hOplzVd9Iw7-4f5boSRK8RUs",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJWS7kVuuPGRMRGI6njwcQDoQ",
+            "plus_code": {
+                "compound_code": "238C+3Q Partinico, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM238C+3Q"
+            },
+            "rating": 4.7,
+            "reference": "ChIJWS7kVuuPGRMRGI6njwcQDoQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 31,
+            "vicinity": "Partinico"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9832839,
+                    "lng": 13.4592647
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.98428002989272,
+                        "lng": 13.46092682989272
+                    },
+                    "southwest": {
+                        "lat": 37.98158037010728,
+                        "lng": 13.45822717010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Baglio Beccadelli",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 692,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115421061157294659603\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbndrhCo8W5fZ4uwyFqcjskNdcLaFOsKIRF4P_-ur93UNc6eVwPo-AVGG4VwqzTX-eoP_8EtGSzih5Vod8tX7l9Ge92zLZOU9WOjOVHoaMy-sE97JgPWS3oQcqAC1fe0X7QYzl_jO6XzIU7qm4kkpxIQord-w5VhrUyo1Qc8-_C_bydi",
+                    "width": 1229
+                }
+            ],
+            "place_id": "ChIJjWQ7AwP9GRMRebRhn6CESH4",
+            "plus_code": {
+                "compound_code": "XFM5+8P Bolognetta, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXFM5+8P"
+            },
+            "rating": 4.9,
+            "reference": "ChIJjWQ7AwP9GRMRebRhn6CESH4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 300,
+            "vicinity": "Contrada Scozzari, Bolognetta"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.0383323,
+                    "lng": 13.4586805
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.03968797989272,
+                        "lng": 13.46005987989272
+                    },
+                    "southwest": {
+                        "lat": 38.03698832010728,
+                        "lng": 13.45736022010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shazam",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJO6tRJ6z8GRMRt3H72BaCDwk",
+            "plus_code": {
+                "compound_code": "2FQ5+8F Misilmeri, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM2FQ5+8F"
+            },
+            "rating": 3.8,
+            "reference": "ChIJO6tRJ6z8GRMRt3H72BaCDwk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "Viale Europa, 1, Misilmeri"
+        }
+    ],
+    "status": "OK"
+}
