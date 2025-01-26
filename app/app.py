@@ -1,48 +1,51 @@
-'''
-main entry point of application
-'''
+"""
+Main entry point of the application.
+"""
 
 from flask import Flask, render_template
-from models import db
-from resources import api
+from app.resources import api
+from app.models import db
 
-# Initialize Flask app instance
-app = Flask(__name__)
+def test_something():
+    print('this is a test')
+    return 'this is a test'
 
-# Set up configurations for the app
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///vendors.db"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+def create_app():
+    """
+    Application factory function to create and configure the Flask app.
+    """
+    app = Flask(__name__)
 
-# Initialize SQLAlchemy and Flask-RESTful
-db.init_app(app)
-api.init_app(app)
+    # Set up configurations for the app
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///instance/vendors.db"
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-# Route for home page (root URL)
-@app.route('/')
-def home():
-    return render_template('index.html')  # Render the HTML template
+    # Initialize extensions
+    db.init_app(app)
+    api.init_app(app)
 
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
+    # Register routes
+    @app.route('/')
+    def home():
+        return render_template('index.html')  # Render the HTML template
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+    @app.route("/contact")
+    def contact():
+        return render_template("contact.html")
 
-@app.route("/privacy")
-def privacy():
-    return render_template("privacy.html")
+    @app.route("/about")
+    def about():
+        return render_template("about.html")
 
-# # Create the database tables (run this once)
-# @app.before_first_request
-# def create_tables():
-#     # Ensure that db.create_all() is called only once before the first request
-#     db.create_all()
+    @app.route("/privacy")
+    def privacy():
+        return render_template("privacy.html")
 
-# Run the application
-# Directly create the tables here if needed
+    return app
+
+
 if __name__ == "__main__":
-    with app.app_context():  # Make sure we have an application context
+    app = create_app()
+    with app.app_context():
         db.create_all()  # Create tables directly
     app.run(debug=True)

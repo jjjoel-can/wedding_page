@@ -29,7 +29,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/109387246324454550459\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbkQjuY-VbZS6_srNkEvz0EVz-AujBe3LTpjm-hMt6lygZhHCoasrBV_wpMJ05zGJenkkF31kXkvdr_SV8T25H2yoWnFammsaCbg2ys1G-w-mjZ0IHPNqjuiO2iGBPTnBJ_zHMPS9qVlholWV6NFZCB3-gxvNByWhgYdvhQsmAbNsJkw",
+                    "photo_reference": "AVzFdbnezSaVj941iSNciclozix0OnBgCFI7Q53h7vM8UL5Gzk0XIxPK8OHvqN8l5wELhttHnQ_NU_r9-FvoE_W-FOwiDsOSYj01jDQXl6vUJea2k_9vejChgsFtdPWH4zqOwmjkLOfkCFL0Rto_W5eCjihpPTr7O4PdLpKRBRnrRqVRJAXy",
                     "width": 2100
                 }
             ],
@@ -71,7 +71,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "AMORI INFINITI",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -79,7 +79,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/104380002131336639575\">Marco La Mendola</a>"
                     ],
-                    "photo_reference": "AVzFdbmXI0eVp7n0KPYwOu3Zpuk4-uurghBaw2tkE5JKoDojbpfMVVkEBtHhktlPo3ORINttK7E655L6XdJmtgYrxaulHadmKqyNbtmNmE-2fji3hUWHJh2L9L-J1SSwHpyz13J55xyYzVS42Q5Cj5JBMnGIFCawDpu0hM7xYGkNoxhULkvp",
+                    "photo_reference": "AVzFdblTkU7PA-jA9BmI-F4WqP1vOoZq6dKQgUw60PM2-HJC_XRhTfHKOhWavefLL6FSu441qUDMbEeF-Fb_D1OcCxnelrg5YSjQuTpribuimyckpcAJmV1Ii5nHirEqUY7XOT-RxsuznqMOc73nWWTMDFurkziKtuA1x-bt-8dSRBmEh6c4",
                     "width": 3264
                 }
             ],

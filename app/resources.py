@@ -3,7 +3,7 @@ CRUD API Endpoints
 '''
 
 from flask_restful import Resource, Api, reqparse
-from models import Vendor, db
+from app.models import Vendor, db
 
 # Initialize the API object here
 api = Api()

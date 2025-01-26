@@ -1,157 +1,7 @@
 {
     "html_attributions": [],
-    "next_page_token": "AVzFdbmRqK9lQg6GV345jhJ87Y4qoe767zuQBuYGCHBbjOGcVU1ZNHoUbarzg4mEYxCX2fGIj1YISAJaR_e9b9jQClfw88sg6nFMxaM8QpTYk-JGILRdtkCFRnpUenV0onRAttdV4MY6OvaLclLhERd21hHakhu57zICHqIB4R8Ejc5gaZpV7uF73J8XubbdWAY8_xpD08DGHobOk4ygqujJ4R3IzJ9GFLHlvNIO6ChrNMOPRKPo6Uu9FDS_m2vTO7j6BK3e1y4gYWXrIW9LxQP5Cz7V_9yzIjw5W4_SQy3rZ8VGicHNfAOYI51SYHNPw1kTVze_DBCep1qxORbUu3IUrx_lTttirWF6RZ2UQiz9QqUE4Ei_yvTaySY9jsqIG0wLFDKWKZgyU-oHUpMvBWIP5elLkQPojVm5cRUZVUTmIBApD-TuBt-ls_oQfQVC7Mk",
+    "next_page_token": "AVzFdbnmImNEhy0WM-VDnb0on27ZTo-ZVYz76jaqSHTYjSxnstaDKZyzLPCh0mrTbK3cDIiZGLCESI6ma1LfuXMSFPoyoo2WMkhleWDlxBDX7_6ixYcHCPeUAYt50My3coVZCkqEVgLhXmOVihBIQmevS8z_uJdFTmjSxbumoq7wnNQDDTyQzBJ-bymIln-Y61ysw4RYcCMRjh4wWHrxygU2r3WDyqhCMZq15yYg5ea3rI3n8cOaB3Zj3VTAhTi0enU-onjB2MdGVnrOe5r81lQYFLLRXYJHAUHxKSBTSG6suMh1noXGEcXmZK4VLol-h4AHP9P6lD-OW9GSHSfgN4NUXEB7SHHBiCvx6pR-vp9h5GngXNmUx4OdT5sxdqV3bGiSFPVHQ7EOvFCY_JMeawWsg-YQgrJutuI_lxn8zTu3XiJtd209yXgnsT_oxF1KS9Y",
     "results": [
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.2992816,
-                    "lng": 13.5496894
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.30072902989272,
-                        "lng": 13.55104652989272
-                    },
-                    "southwest": {
-                        "lat": 37.29802937010727,
-                        "lng": 13.54834687010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Foto Cammalleri",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2687,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118071536215758355091\">Fotografo Cammalleri Nino</a>"
-                    ],
-                    "photo_reference": "AVzFdbmKbBLyAwNOjMSfpAztXF9UD4ymn5_NLQOm6At6vYuR4xy8xFhcYz0MK82PMl9jNilFsllLyuZHwvubmCyD0h9_8G0cRlRCFj_3nlW47IbKJrqFKA_KEQxdARei4FPt0DCu_Iz37pHnWvxYeFGjjiLxH_GcJruejonV9QkVnCo2lFvM",
-                    "width": 4390
-                }
-            ],
-            "place_id": "ChIJZRu5hgyCEBMRrsdHJtq-XMQ",
-            "plus_code": {
-                "compound_code": "7GXX+PV Villaseta, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M7GXX+PV"
-            },
-            "rating": 4.7,
-            "reference": "ChIJZRu5hgyCEBMRrsdHJtq-XMQ",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 67,
-            "vicinity": "Via Salina, 6, Villaseta"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.2890251,
-                    "lng": 13.5252562
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.29037817989271,
-                        "lng": 13.52663982989272
-                    },
-                    "southwest": {
-                        "lat": 37.28767852010727,
-                        "lng": 13.52394017010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Foto Flash Miceli",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1932,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106257322109910508210\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbnIK5SawxW3KstW-pC6iWtbJYYXVIwTPfGTpzUn52P7Oeyrl5tQatEK6rDgJvum7dl7OPbd6ZkGG7zhlZcEeFs1muJZyyU7XzK7mSftRGs7e0u9YVXoHb1Eek21yShdsBafwHfDNrI86kfTyK82KFF85Q6fuogrMUhhNQxiOG96cHfz",
-                    "width": 2576
-                }
-            ],
-            "place_id": "ChIJFTDVAvp5GhMRdo506paNTFI",
-            "plus_code": {
-                "compound_code": "7GQG+J3 Porto Empedocle, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M7GQG+J3"
-            },
-            "rating": 5,
-            "reference": "ChIJFTDVAvp5GhMRdo506paNTFI",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 180,
-            "vicinity": "Via Napoli, 5, Porto Empedocle"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.9799599,
-                    "lng": 12.967095
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.98129812989272,
-                        "lng": 12.96844667989272
-                    },
-                    "southwest": {
-                        "lat": 37.97859847010728,
-                        "lng": 12.96574702010727
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Tommaso D'Angelo Photography",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 809,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/117774381774377185831\">Foto e Video Tommaso D&#39;Angelo</a>"
-                    ],
-                    "photo_reference": "AVzFdbmFHSWPQ4ZxIrT3dhO6iMzUKTP2KV1k4cVGt1cutlIj_enunhQuTf1EY-D4aQK6vMdhU2d4b2DO5OUxZ5UM8-R8zrnyUEJ0c2dzfcTdHBvsTb1pZa22n0jrSgX_SqKsfmTCOjR3ViUpQdsnL8wUgKMjg8fBYBpbe3oXRw-K6-GmlCus",
-                    "width": 1440
-                }
-            ],
-            "place_id": "ChIJS2Sj5E2GGRMRan2sqkvdXn8",
-            "plus_code": {
-                "compound_code": "XXH8+XR Alcamo, Free municipal consortium of Trapani, Italy",
-                "global_code": "8F9JXXH8+XR"
-            },
-            "rating": 4.8,
-            "reference": "ChIJS2Sj5E2GGRMRan2sqkvdXn8",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 19,
-            "vicinity": "Via Commendatore Dott. Navarra, 86, Alcamo"
-        },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
@@ -183,7 +33,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/105609056284078579804\">Alessandro Ferrantelli Photographer</a>"
                     ],
-                    "photo_reference": "AVzFdbkpCVb2jS0CFe3wb4nT8rLihgWTWs0YzWjsfbkoq8he3r2kSZzjO9aNSZbjOWU7acK-xee4qzCQgLkwS3zg8qabhHDwR8p06BEHTwxHZU3jFKxBZa2c47wHib8oIRya3KjTyVP8kxPeDXnNpeA21VUpDTqA03TGa-Vn3GG-2FIWk94q",
+                    "photo_reference": "AVzFdbl1vnG0HNaEdq4IsTo8amKrU46Z_2Rw936-eb67IHmHf8WdNLb76_Mu9lw0ZSGdF8eM50r5XyoE0HhxAcN4hG4ScLV82uFXIrvLJWVlfsCBIOvEwQr2ErCwPRTYBQImsaMTxY2QfARJfzq449ajOlEsnXqRRDy3782SRBavYUdu788g",
                     "width": 1367
                 }
             ],
@@ -206,554 +56,124 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 38.0428497,
-                    "lng": 13.112447
+                    "lat": 37.50887,
+                    "lng": 13.06238
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 38.04416472989271,
-                        "lng": 13.11383007989272
+                        "lat": 37.51024842989273,
+                        "lng": 13.06373012989272
                     },
                     "southwest": {
-                        "lat": 38.04146507010727,
-                        "lng": 13.11113042010728
+                        "lat": 37.50754877010728,
+                        "lng": 13.06103047010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Vittoria Patty",
+            "name": "Francesca Mannias Art Photo",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 3210,
+                    "height": 5651,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/108270855313672786608\">Vittoria Patty</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/116755753633856897743\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbm_CY-5ki8RUsUGTJVO2H0E8zv0DvFHkXaS6m2BMRI2dq7i-nQtO7pGVRNRR4Ge46ItnGKC8PnjgIUAWpXscegfd8t6huCrWOeMAo8y-6Pm-jL6GtHQ0nhXOn7F5O2MZJ_iQ3kRxMPDCVWbLRA2snJ1fIGTVRKch-KMCE6OeMB4QG63",
-                    "width": 4815
+                    "photo_reference": "AVzFdbm2BaV9U2n3OcmdbhWj_Oq0Vlw54edy1cU3m3QD1tVobgqrkFn0zBT2S_PPYqtI7Q1x9OLJN5E0ZniSbiT9P9h0ZQA89HStRhi4NWPs9XY-W1k0_PyrVRgOQHWNLPelMyPXrfyYzhkkQGdUP1-VJ3o5cgsB2Ah-_2oO0uh7ueQk-wws",
+                    "width": 3772
                 }
             ],
-            "place_id": "ChIJLxg1I7ONGRMRyOhn1amq-ZE",
+            "place_id": "ChIJJ9blDW5HGhMRKw8mN-az-Gw",
             "plus_code": {
-                "compound_code": "24V6+4X Partinico, Metropolitan City of Palermo, Italy",
-                "global_code": "8FCM24V6+4X"
+                "compound_code": "G356+GX Sciacca, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MG356+GX"
             },
-            "rating": 4.8,
-            "reference": "ChIJLxg1I7ONGRMRyOhn1amq-ZE",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 72,
-            "vicinity": "Corso dei Mille, 456, Partinico"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3543738,
-                    "lng": 13.8468466
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.35567592989273,
-                        "lng": 13.84822627989272
-                    },
-                    "southwest": {
-                        "lat": 37.35297627010728,
-                        "lng": 13.84552662010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Greco Fotografi - Wedding Photo Emotions",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4016,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/108226117142990004725\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbm1pJJ2BVoC4Rr1IwyWg6ma_-jRHvlciS6-w6TVKYZ6EJ23bNYB-eg9j4Lx58KJqUAnFOCfNSOKNh4K1MkeuHAXNieWNa3EgUH4UeCgA9Ca-5VSx0OlJdEZI2G6m_4XRPbh8NMSBsqZ7qdk6nToC1IuAnnVx54NTrYSJ0Iy24hHneum",
-                    "width": 6016
-                }
-            ],
-            "place_id": "ChIJpW8O70CSEBMRhkQrTEIY668",
-            "plus_code": {
-                "compound_code": "9R3W+PP Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9R3W+PP"
-            },
-            "rating": 4.9,
-            "reference": "ChIJpW8O70CSEBMRhkQrTEIY668",
+            "rating": 5,
+            "reference": "ChIJJ9blDW5HGhMRKw8mN-az-Gw",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
             "user_ratings_total": 27,
-            "vicinity": "Via Calogero Sacheli, 8, Canicatt\u00ec"
+            "vicinity": "Via Antonio Segni, 23D, Sciacca"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 38.0285147,
-                    "lng": 13.4487006
+                    "lat": 37.3816903,
+                    "lng": 13.7307209
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 38.02986942989273,
-                        "lng": 13.45002922989272
+                        "lat": 37.38299237989272,
+                        "lng": 13.73210727989272
                     },
                     "southwest": {
-                        "lat": 38.02716977010728,
-                        "lng": 13.44732957010728
+                        "lat": 37.38029272010727,
+                        "lng": 13.72940762010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Couple Creative Photo",
+            "name": "Riflessi Studios",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 1910,
+                    "height": 1200,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113675074286244411602\">Marco Lo Bue Fotografia</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/108445460468869812838\">Riflessi Studios Di S.Andrea Sardo &amp; C. Sas</a>"
                     ],
-                    "photo_reference": "AVzFdbllIJfFbQTtDbMJijg-dJaR9AotHykCt3ClfZZ2O1bFq-AHtwD6KXhCkZDo2-TQvvSNicDi25SvL3o4s7F_5b-enD17AkLyOknOohT0rayi99GD6PTVAQ4lBS8-pA28j92x2WP1RHCzk77kei8AesbNxEzy3wTFHB6zfFuHYaOU757h",
-                    "width": 1886
+                    "photo_reference": "AVzFdbm21ixneFZ3_eYUVbBzKJF5-rAN5U1YUofg8mqWXrfx0wZvGxfh-XUoGbezW-Z9IAEeAIGJboEPleZSUE3_VYn4NoTL7SV0_1CPVIOL1BxcG3i5lKjna6-aB5yHVxM9RmmL8EFdozlj3ORfmqGQObwM78N95vWHlYLOnd5-2TwEH-qb",
+                    "width": 1600
                 }
             ],
-            "place_id": "ChIJqWNfU1n7GRMR68udb7MElnE",
+            "place_id": "ChIJLQT1C56QEBMR90YzxZ3vl8M",
             "plus_code": {
-                "compound_code": "2CHX+CF Misilmeri, Metropolitan City of Palermo, Italy",
-                "global_code": "8FCM2CHX+CF"
-            },
-            "rating": 4.7,
-            "reference": "ChIJqWNfU1n7GRMR68udb7MElnE",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 27,
-            "vicinity": "Via A. Dumas, 21, Misilmeri"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3568267,
-                    "lng": 13.8486934
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.35815087989272,
-                        "lng": 13.85003072989272
-                    },
-                    "southwest": {
-                        "lat": 37.35545122010727,
-                        "lng": 13.84733107010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Bongiornophotostudio",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 720,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113216088937963600059\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbkw_ppRzPZnkahv3bed54iRaowBsryatGito1OXg8svEgscAzfxc5dcBsBog0tEOuBIjU3IMHMkXmdbsDhHa_FxxSHky3q-c7evFIH5pd5aKb1NGprddtu3zmYkCK3L6vOmxzxd_Ul8qGCF1XLNsqSPJEyqRP1A_czm2JI4A30xDvEZ",
-                    "width": 1080
-                }
-            ],
-            "place_id": "ChIJK1hSbEaSEBMRJcPj6uwKr_E",
-            "plus_code": {
-                "compound_code": "9R4X+PF Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9R4X+PF"
-            },
-            "rating": 4.9,
-            "reference": "ChIJK1hSbEaSEBMRJcPj6uwKr_E",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 18,
-            "vicinity": "Via Carlo Cattaneo, 4, Canicatt\u00ec"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.8202535,
-                    "lng": 13.2966653
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.82160072989272,
-                        "lng": 13.29800592989272
-                    },
-                    "southwest": {
-                        "lat": 37.81890107010727,
-                        "lng": 13.29530627010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Studio Fotografico Mazzaglia",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1333,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113401433755365081391\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdblekX6fOmk4WJxVkGmcKwpZvIhmJBP-8hO3BItmAzsmdgiAq7esIAuTZKVNr674dKVnl9nQsx9a_anTmYkUVg6bhpfXG89BlWM-gf0idDc9bGU8bCNREx5l5hTUQ-JX5Z5QocD0Xf-fU5EjNOt7CfSjELWek6CbOTG2e1vPCOVaW6Ll",
-                    "width": 2000
-                }
-            ],
-            "place_id": "ChIJyVd4HI4dGhMRySw0EMISOcE",
-            "plus_code": {
-                "compound_code": "R7CW+4M Corleone, Metropolitan City of Palermo, Italy",
-                "global_code": "8F9MR7CW+4M"
-            },
-            "rating": 4.9,
-            "reference": "ChIJyVd4HI4dGhMRySw0EMISOcE",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 75,
-            "vicinity": "Via S. Aldisio, 33, Corleone"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.5077717,
-                    "lng": 13.0842121
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.50911352989272,
-                        "lng": 13.08555537989272
-                    },
-                    "southwest": {
-                        "lat": 37.50641387010727,
-                        "lng": 13.08285572010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Francesco Sanzone Fotografo",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3744,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118439969125518529074\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbksxhQDE3NCb9yprIwBpqzeGnArku8soxwX7JztaZjhAroqWUBU-wd7mft7PLLHr0TVnHG0PyMS9hpNX4EejiKQNy_BEFcKGOnr-FqIkSx6U36zp2x1iTsxd7YPvNQjQAdCeKC2_hF_qIQGQPbIt7-WuRzc1TNs7fLlexfFSq9L2Lml",
-                    "width": 5616
-                }
-            ],
-            "place_id": "ChIJByeZLXZHGhMRrmUPCw8HGFc",
-            "plus_code": {
-                "compound_code": "G35M+4M Sciacca, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9MG35M+4M"
+                "compound_code": "9PJJ+M7 Racalmuto, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9PJJ+M7"
             },
             "rating": 5,
-            "reference": "ChIJByeZLXZHGhMRrmUPCw8HGFc",
+            "reference": "ChIJLQT1C56QEBMR90YzxZ3vl8M",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 21,
-            "vicinity": "Via Carmelo, Via C. Molinari, 5, Sciacca"
+            "user_ratings_total": 68,
+            "vicinity": "C/da Zaccanello, Racalmuto"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.3108018,
-                    "lng": 13.5735393
+                    "lat": 37.5105463,
+                    "lng": 13.0778118
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.31208832989272,
-                        "lng": 13.57487707989272
+                        "lat": 37.51182652989272,
+                        "lng": 13.07912062989272
                     },
                     "southwest": {
-                        "lat": 37.30938867010728,
-                        "lng": 13.57217742010728
+                        "lat": 37.50912687010727,
+                        "lng": 13.07642097010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Samantha Capitano Photography",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 334,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102834664898682344964\">Samantha Capitano Photography</a>"
-                    ],
-                    "photo_reference": "AVzFdbkESv-WM387fzDVmJl4_njkwSwnTDSMv5XWuTpd2E4W9anQhflwcBCWT-_t5FASC0EIYyNNecc7w4FkSodO4eMnxIg8EqXTmY4F5dB321yLvsJCC0lXQGukYD7e73FDaxK8NUVnadVBYtRICywnd04AyepZOLmupLUhTQGW6P3w5vux",
-                    "width": 500
-                }
-            ],
-            "place_id": "ChIJ2enhFE6CEBMRXpCRXyOOpCw",
-            "plus_code": {
-                "compound_code": "8H6F+8C Agrigento, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M8H6F+8C"
-            },
-            "rating": 4.7,
-            "reference": "ChIJ2enhFE6CEBMRXpCRXyOOpCw",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 16,
-            "vicinity": "Via Dante Alighieri, 204, Agrigento"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.5058869,
-                    "lng": 13.0858306
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.50727722989271,
-                        "lng": 13.08717782989272
-                    },
-                    "southwest": {
-                        "lat": 37.50457757010727,
-                        "lng": 13.08447817010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "fotografo carlino",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJ2cCKa1RBGhMR4SmSCdR8Icw",
-            "plus_code": {
-                "compound_code": "G34P+98 Sciacca, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9MG34P+98"
-            },
-            "rating": 4.9,
-            "reference": "ChIJ2cCKa1RBGhMR4SmSCdR8Icw",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 11,
-            "vicinity": "Corso Vittorio Emanuele, 4, Sciacca"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.2947295,
-                    "lng": 13.7951713
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.29607987989272,
-                        "lng": 13.79652117989272
-                    },
-                    "southwest": {
-                        "lat": 37.29338022010727,
-                        "lng": 13.79382152010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Atelier Vincenzo Lo Giudice Photografo",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJrfBpd1-OEBMRGTz98CB5IRM",
-            "plus_code": {
-                "compound_code": "7QVW+V3 Naro, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M7QVW+V3"
-            },
-            "rating": 5,
-            "reference": "ChIJrfBpd1-OEBMRGTz98CB5IRM",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 11,
-            "vicinity": "Via Vittorio Emanuele, 10, Naro"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3504418,
-                    "lng": 13.751502
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.35177417989272,
-                        "lng": 13.75283082989272
-                    },
-                    "southwest": {
-                        "lat": 37.34907452010728,
-                        "lng": 13.75013117010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Fotografo Matrimoni Lillo Morreale Artist photographer",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3536,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113945086069100604987\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbkRZLJmvU4-AbNy9Jn7ll0ZoVhAa4nru6v_ObfMxmWOIOeqn0iy2IlNAp6SFoWt6s0J9vkEi3yCOsPTVSqziTL5vPQ99DOdcFS76wHp4Rw_6elt31aRUchfFaNidFetWFRP5xBLFLaWOx8kyRFhoSfgV5hihtAdcNWbadu9znRpyg_I",
-                    "width": 5198
-                }
-            ],
-            "place_id": "ChIJ5yWVnCKQEBMR-3RAEwRu9lM",
-            "plus_code": {
-                "compound_code": "9Q22+5J Castrofilippo, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9Q22+5J"
-            },
-            "rating": 5,
-            "reference": "ChIJ5yWVnCKQEBMR-3RAEwRu9lM",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 36,
-            "vicinity": "di fronte Ristorante Al Casale, Viale Bonfiglio, 51, Castrofilippo"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3077124,
-                    "lng": 13.6561884
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.30905597989272,
-                        "lng": 13.65749592989272
-                    },
-                    "southwest": {
-                        "lat": 37.30635632010728,
-                        "lng": 13.65479627010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Gabriele Bunone Photography",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102130124973219923602\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbmFOBm8PHXnRRE119yqpNwS2PqjTu0wRuY7pvHwoigOe_c5Q1qW5pKQrYHdTw2QBQzCFHp6GUzgqTlaIOc3KxwfLnoMQPy-taIV2jxxtZoiyN1Quw1NDT0AuejbU1s79712MY7ADi7SA8-gtPKUWBZPiRDSSCGiMSEz5K83FmCkCxyH",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJn6bIdcSFEBMR0ymQMTO5gLI",
-            "plus_code": {
-                "compound_code": "8M54+3F Favara, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M8M54+3F"
-            },
-            "rating": 4.7,
-            "reference": "ChIJn6bIdcSFEBMR0ymQMTO5gLI",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 3,
-            "vicinity": "Viale John Fitzgerald Kennedy, 1, Favara"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.5083202,
-                    "lng": 13.0802557
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.50968912989272,
-                        "lng": 13.08163467989272
-                    },
-                    "southwest": {
-                        "lat": 37.50698947010728,
-                        "lng": 13.07893502010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Monica Sutera | Orchidee Photo e Wedding Film",
+            "name": "SCATTOEMIDIVERTO",
             "opening_hours": {
                 "open_now": true
             },
@@ -761,26 +181,76 @@
                 {
                     "height": 3648,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/105058055449250109236\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/115535245487118586187\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbmMDfiwjHDvZ7yMiy-o-3nnZ3tTLy6uEywyPHiDbqDGpoIKdWfOTHk3pzePkA1CzbNaZdgrQaO1EbFirLWRGOqjULbJ58kVuS2ePECzGUuoF9YL6ZujHQf1vRRtxQ52p_UkweEwfsS9YkkbA0jvMsVFIVmRDUpe1vdYIrKHtycmGE2M",
+                    "photo_reference": "AVzFdbl2bWyzr2IlzCLTSALfBiBWNGuxFvR-3pMrIfm4p1AQ4m4-kVdY6onTtLuOOmdB5dTS0rFoWDL_nXtXR0oR091Ce0AHeH1rP3pLlZkgX1k0fSQfg-_AfVsqhmKubdK1-22SLn4jI_nkxzcs3q4njdAERrndMNwtTsCUy_gtKcrzM_M",
                     "width": 5472
                 }
             ],
-            "place_id": "ChIJKbNatPFHGhMRML67GZNpu2A",
+            "place_id": "ChIJk4maY4JHGhMRoEK_v-iOHhc",
             "plus_code": {
-                "compound_code": "G35J+84 Sciacca, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9MG35J+84"
+                "compound_code": "G36H+64 Sciacca, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MG36H+64"
             },
             "rating": 5,
-            "reference": "ChIJKbNatPFHGhMRML67GZNpu2A",
+            "reference": "ChIJk4maY4JHGhMRoEK_v-iOHhc",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 100,
-            "vicinity": "Corso Vittorio Emanuele, 149, Sciacca"
+            "user_ratings_total": 25,
+            "vicinity": "Via Giordano Bruno, 9, Sciacca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2890251,
+                    "lng": 13.5252562
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.29037817989271,
+                        "lng": 13.52663982989272
+                    },
+                    "southwest": {
+                        "lat": 37.28767852010727,
+                        "lng": 13.52394017010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Foto Flash Miceli",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1932,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106257322109910508210\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdblpa-Tepe13qJNYoT0PjyMfq9wiF8EMmT6_EiQvEsSq0x21MJ0K5FMfCYLX5OHLTOHc13Kdmf1IbrveQUXT5g2AWwy2BUJaFZw2VoA7ATFc8dYr5eG8DJF7YPcLn6hOAeNnfxbeLWgPM4vI1t0ehfPQkdTIPvzKOJLPRtNPXjpsXM98",
+                    "width": 2576
+                }
+            ],
+            "place_id": "ChIJFTDVAvp5GhMRdo506paNTFI",
+            "plus_code": {
+                "compound_code": "7GQG+J3 Porto Empedocle, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7GQG+J3"
+            },
+            "rating": 5,
+            "reference": "ChIJFTDVAvp5GhMRdo506paNTFI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 180,
+            "vicinity": "Via Napoli, 5, Porto Empedocle"
         },
         {
             "business_status": "OPERATIONAL",
@@ -805,7 +275,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "Foto Event Studio",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -813,7 +283,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/110226444819468697170\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdblsISr14sjLZP404DQFN_MpGgm8ryZ4anCOFMfhK7ZyXnNpbKU5mJ85fgpY6DrIqZ1tlKhbgaY0ZnOWfboHz3KuV4t4s3K2SAsqxizuJwZvycDI2uB_8jfCHD2S1LCTBpqcRXyJL7nqOwEJ8EwKMaadbcNSSe-8q3Qkt0Ec0iTlOdXS",
+                    "photo_reference": "AVzFdblTEOc_J8WW5SxcmTFHqlFTOoT7lSM5bWha59qGUenRoORRNUJqR7sbAzW7fClhtbPHwlGgekfeqAv5WK7wJ_aDoMEGgvDtKuV86_jNqiFbDHjVKGw4smoXeVR-qpKmLdcisLIslo-pSQ32fBq7tzHtvnCeblcZ4B4ZkNs65CNXChZf",
                     "width": 720
                 }
             ],
@@ -829,158 +299,682 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 27,
+            "user_ratings_total": 28,
             "vicinity": "Via Pergusa, 71, Palma di Montechiaro"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.4036217,
-                    "lng": 13.5313156
+                    "lat": 38.0285147,
+                    "lng": 13.4487006
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.40499622989272,
-                        "lng": 13.53261312989272
+                        "lat": 38.02986942989273,
+                        "lng": 13.45002922989272
                     },
                     "southwest": {
-                        "lat": 37.40229657010728,
-                        "lng": 13.52991347010727
+                        "lat": 38.02716977010728,
+                        "lng": 13.44732957010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Francesco D'Avola - Italian Wedding Photographer",
+            "name": "Couple Creative Photo",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 2015,
+                    "height": 1910,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109030365763551290805\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/113675074286244411602\">Marco Lo Bue Fotografia</a>"
                     ],
-                    "photo_reference": "AVzFdbmIkqdNSxmFq14kJmytPiyQ0TnXIPwboAGkClvCtnbnRQplVFj6mo_hjC3Mp6-0MBFyL0njOXMoJGFh99FRUphUOFy7b7S0Sbs4QxudlNdq4vbvvnYKu7PhY6knJhYVman-SzumxQTdv7tP2-fxn-uXLK1mUPOO_t6vhNBUIpTBbJje",
-                    "width": 1992
+                    "photo_reference": "AVzFdblanazGkDjmR2tb1GaIHLDYHuywEwk04Df7abAj_B2hRyzQE1HVSPUpTt_Kv-195FhzmVH98hDuEsQm6u31hS70RDgO6-t3AkIYsi5w_3lZnvLp2BrZvMgFd8veeJANHC3FbfxM7ueRT3JiSpSwbctQKRbhHnZpDoKc_49Sd8DiySNG",
+                    "width": 1886
                 }
             ],
-            "place_id": "ChIJa5alfxl3GhMR5BnO38YQKgM",
+            "place_id": "ChIJqWNfU1n7GRMR68udb7MElnE",
             "plus_code": {
-                "compound_code": "CG3J+CG Raffadali, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9MCG3J+CG"
+                "compound_code": "2CHX+CF Misilmeri, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM2CHX+CF"
             },
-            "rating": 5,
-            "reference": "ChIJa5alfxl3GhMR5BnO38YQKgM",
+            "rating": 4.7,
+            "reference": "ChIJqWNfU1n7GRMR68udb7MElnE",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 44,
-            "vicinity": "Via Nazionale, 66, Raffadali"
+            "user_ratings_total": 27,
+            "vicinity": "Via A. Dumas, 21, Misilmeri"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.2997688,
-                    "lng": 13.5981229
+                    "lat": 37.9914442,
+                    "lng": 13.8839215
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.30106067989272,
-                        "lng": 13.59951152989272
+                        "lat": 37.99283517989272,
+                        "lng": 13.88522237989272
                     },
                     "southwest": {
-                        "lat": 37.29836102010728,
-                        "lng": 13.59681187010728
+                        "lat": 37.99013552010728,
+                        "lng": 13.88252272010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Lillo Arcieri Fotografo",
+            "name": "Photoevent",
+            "photos": [
+                {
+                    "height": 3840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107527804133899596975\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmoZptiPzw_EqNfyFeqxB9UxvX8DsKIQk6gesvBl6N2DSRoVS2bvaEkyWDJT0Y-ZLuhkIwWYKJcpJkzGhXn5fYyMG6uO3bNjQSMzkjpXvKqcxhAuiOrSfG90x5kVr_afDKSKG2sOvqCCDizgFWrAHt45V4sdPnmb00CeA00I0wUGcCX",
+                    "width": 5760
+                }
+            ],
+            "place_id": "ChIJO3FZIcdJFxMR1G6op1KiYTA",
+            "plus_code": {
+                "compound_code": "XVRM+HH Campofelice di Roccella, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MXVRM+HH"
+            },
+            "rating": 5,
+            "reference": "ChIJO3FZIcdJFxMR1G6op1KiYTA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 77,
+            "vicinity": "Via Avvocato Cipolla, 29, Campofelice di Roccella"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3568267,
+                    "lng": 13.8486934
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.35815087989272,
+                        "lng": 13.85003072989272
+                    },
+                    "southwest": {
+                        "lat": 37.35545122010727,
+                        "lng": 13.84733107010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Bongiornophotostudio",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 4000,
+                    "height": 720,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112421413900836247756\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/113216088937963600059\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbnGYaq6FlNKwPy02-RX0YYP8O08dlf4k_4eTyBAkb8ouKtEL16WTr_4SCS-NhVHaDzYP2HGHM9mZ3KWV-N5sHfWimCnS_EbyCaFjCUOdQcUGAIToTmn_mjDWG2OwU1FCLm6JUy6HeVKiQkoMf6L2Az5dl4DPCJncpWq3Ppg7yqAWh4b",
-                    "width": 6000
+                    "photo_reference": "AVzFdbkgmYiBS7QL9m2q0SJ-htD7tT3rdESZnzzG7xZ6qvwqYjiJwJArDLw2i4Vjwg5gY_4nXrEod9ny2zalUBiE6MaCG6m3AlLE3tyPXvn4ZgPsMgKPO27GjtniPsTM7sqtGTLHmob-M-UF-SWBjRGkIXdkKnjuM5Rjr1eWQYFP_n7wlt7D",
+                    "width": 1080
                 }
             ],
-            "place_id": "ChIJ2-itbE6CEBMRqRdHCBr9iis",
+            "place_id": "ChIJK1hSbEaSEBMRJcPj6uwKr_E",
             "plus_code": {
-                "compound_code": "7HXX+W6 Agrigento, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M7HXX+W6"
+                "compound_code": "9R4X+PF Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9R4X+PF"
+            },
+            "rating": 4.9,
+            "reference": "ChIJK1hSbEaSEBMRJcPj6uwKr_E",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 18,
+            "vicinity": "Via Carlo Cattaneo, 4, Canicatt\u00ec"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9791897,
+                    "lng": 12.9680104
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.98053632989272,
+                        "lng": 12.96931412989272
+                    },
+                    "southwest": {
+                        "lat": 37.97783667010728,
+                        "lng": 12.96661447010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Daniele Rimi",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2184,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109388780129200782963\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnNPZKNSJ5H0UZ0OvzNoS4eI8_GNZztcTvSa-DUGwbebcngNbIPv7iqKLaWYPE2xq-uopJ8zfXTeuq-FNd4GeQz483IVJP1LNgRfGDWHMsi7FH_8vdnzIlB66S5JCIlW8VakhFkA4mQ7Qj3Y_vQ-zfFNaquXyqyiq2oe33d9C42_UxZ",
+                    "width": 2912
+                }
+            ],
+            "place_id": "ChIJ-xC6xIKHGRMRhXnP3yU-e4U",
+            "plus_code": {
+                "compound_code": "XXH9+M6 Alcamo, Free municipal consortium of Trapani, Italy",
+                "global_code": "8F9JXXH9+M6"
+            },
+            "rating": 5,
+            "reference": "ChIJ-xC6xIKHGRMRhXnP3yU-e4U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 81,
+            "vicinity": "Piazza Della Repubblica, 24/A, Alcamo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.9799599,
+                    "lng": 12.967095
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.98129812989272,
+                        "lng": 12.96844667989272
+                    },
+                    "southwest": {
+                        "lat": 37.97859847010728,
+                        "lng": 12.96574702010727
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tommaso D'Angelo Photography",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 809,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117774381774377185831\">Foto e Video Tommaso D&#39;Angelo</a>"
+                    ],
+                    "photo_reference": "AVzFdbnQNupn1Fho_mV8AdjYfomOmaJ-kRRBjsvBCr7So2UGudjHbr76RiaSVjfhC25w8t4LhEDeb1lW1wPzxiSK-bGFD3mH4hRiGIzA9H0svek2CLOaIALsWbDw7wzIw7KQg_2XF8797I9GK9toNrXu1yxLUjrlNQODE27QLdz_s16Icxu9",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJS2Sj5E2GGRMRan2sqkvdXn8",
+            "plus_code": {
+                "compound_code": "XXH8+XR Alcamo, Free municipal consortium of Trapani, Italy",
+                "global_code": "8F9JXXH8+XR"
             },
             "rating": 4.8,
-            "reference": "ChIJ2-itbE6CEBMRqRdHCBr9iis",
+            "reference": "ChIJS2Sj5E2GGRMRan2sqkvdXn8",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 28,
-            "vicinity": "Via Pindaro, 12, Agrigento"
+            "user_ratings_total": 19,
+            "vicinity": "Via Commendatore Dott. Navarra, 86, Alcamo"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.320172,
-                    "lng": 13.5803467
+                    "lat": 37.5083202,
+                    "lng": 13.0802557
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.32146952989272,
-                        "lng": 13.58167767989272
+                        "lat": 37.50968912989272,
+                        "lng": 13.08163467989272
                     },
                     "southwest": {
-                        "lat": 37.31876987010727,
-                        "lng": 13.57897802010728
+                        "lat": 37.50698947010728,
+                        "lng": 13.07893502010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Foto&Gadget Lazzano Raffaele",
+            "name": "Monica Sutera | Orchidee Photo e Wedding Film",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 2362,
+                    "height": 3648,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118022844242338460846\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/105058055449250109236\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbnngqrRLCIUZVMVt3KUjHise8Kda0yhsggm-pAorpH2plr87imtfeKfqBQtW9MUqZi7l7LbD8Ui2J4XiBPAt9lhc6b2jI2cGL3wUPPU1VuyYtbHk1e1RtqSBnwTiRDOAMEsnhnvQtS1-o0NX9iBnqlb0y_v9RKvEpktJWErfNhp9j43",
-                    "width": 3543
+                    "photo_reference": "AVzFdbnpWlQnFIexwxVEfmH9nJrpzsnUYVOIXcCyEC0R9fhbL9ffn6GhV7CAV88j78eX2DYuGh0qupXbxhnHxPaoCdCzk6CZvy0qNucMhT9pjG82VJPKptz18mqRnZ2gLcz7TTtqYg4fUHIF1xXMJ6VkAdpkmCJR-adI-98mWNaMILqYfh60",
+                    "width": 5472
                 }
             ],
-            "place_id": "ChIJzz6CIPiCEBMR-JI756-hFEQ",
+            "place_id": "ChIJKbNatPFHGhMRML67GZNpu2A",
             "plus_code": {
-                "compound_code": "8HCJ+34 Agrigento, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M8HCJ+34"
+                "compound_code": "G35J+84 Sciacca, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MG35J+84"
             },
             "rating": 5,
-            "reference": "ChIJzz6CIPiCEBMR-JI756-hFEQ",
+            "reference": "ChIJKbNatPFHGhMRML67GZNpu2A",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 12,
-            "vicinity": "Via Regione Siciliana, 48, Agrigento"
+            "user_ratings_total": 102,
+            "vicinity": "Corso Vittorio Emanuele, 149, Sciacca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2992816,
+                    "lng": 13.5496894
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.30072902989272,
+                        "lng": 13.55104652989272
+                    },
+                    "southwest": {
+                        "lat": 37.29802937010727,
+                        "lng": 13.54834687010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Foto Cammalleri",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4184,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118071536215758355091\">Fotografo Cammalleri Nino</a>"
+                    ],
+                    "photo_reference": "AVzFdbnVC7wMbU0YROSlwypMVYfknVlMI4YyMFY959i8V29J2GxRS_HpGMuwG7a5LwsR4Q9Xkw0rI-BnLHDsTKXkaikVw0hhhOnKk21me3glc8Y4UEMVPspO00CD74J7mIwsIh_tBptCnzSy_o90aGjim7d5lOgjaBzq3EBX8qLFEGFEateB",
+                    "width": 6276
+                }
+            ],
+            "place_id": "ChIJZRu5hgyCEBMRrsdHJtq-XMQ",
+            "plus_code": {
+                "compound_code": "7GXX+PV Villaseta, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7GXX+PV"
+            },
+            "rating": 4.7,
+            "reference": "ChIJZRu5hgyCEBMRrsdHJtq-XMQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 67,
+            "vicinity": "Via Salina, 6, Villaseta"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.8202535,
+                    "lng": 13.2966653
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.82160072989272,
+                        "lng": 13.29800592989272
+                    },
+                    "southwest": {
+                        "lat": 37.81890107010727,
+                        "lng": 13.29530627010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Studio Fotografico Mazzaglia",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1333,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113401433755365081391\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdblmmn99Fof8vuc3lXmNh62YNVnd5PRjh_t4zZifHhxDmc91vxjpPxdg0FlS-sDTwBptvqcAQJUai0kqzxcY4LbwjfHWtJ9tC2EtTO7ekQJQaL907RyrHKCc4vEs4S2AF6KqFJ4JxhYoMgZzXIcwU3SVZ9tzF5u2KBfMEOszs4dWOCXm",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJyVd4HI4dGhMRySw0EMISOcE",
+            "plus_code": {
+                "compound_code": "R7CW+4M Corleone, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MR7CW+4M"
+            },
+            "rating": 4.9,
+            "reference": "ChIJyVd4HI4dGhMRySw0EMISOcE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 75,
+            "vicinity": "Via S. Aldisio, 33, Corleone"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3111069,
+                    "lng": 13.5862903
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.31245847989272,
+                        "lng": 13.58760057989272
+                    },
+                    "southwest": {
+                        "lat": 37.30975882010728,
+                        "lng": 13.58490092010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Marco Fantauzzo Wedding Photographer",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 576,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112412665852063970199\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmh_62NQUifL-eS15YFWwc3gONaRseTYevN9fHzIyEJKbMXJZyndDBgMGGRDvTkBYLytkBAn08e9StrEMZubj00jZNqVbrzDzlp5g8huuyWI597i4-UTTzsjYfNlzNzL1OUweJu8WwRevq_IbNm1pDT_JO3Kw0UJ0q_x1HCe5CYASPj",
+                    "width": 864
+                }
+            ],
+            "place_id": "ChIJByF2ySAuKhMRTbTV63dhU2M",
+            "plus_code": {
+                "compound_code": "8H6P+CG Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H6P+CG"
+            },
+            "rating": 5,
+            "reference": "ChIJByF2ySAuKhMRTbTV63dhU2M",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "P.le Vittorio Emanuele, 33, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 38.0428497,
+                    "lng": 13.112447
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.04416472989271,
+                        "lng": 13.11383007989272
+                    },
+                    "southwest": {
+                        "lat": 38.04146507010727,
+                        "lng": 13.11113042010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Vittoria Patty",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3210,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108270855313672786608\">Vittoria Patty</a>"
+                    ],
+                    "photo_reference": "AVzFdbkHDy4CedNzKPLsrBr05ckyCmXYCQPUgDUFmc7aSBzdakFJHtQsUnPAZlFoC8BMB0-VPwU9xSC7e13rQkOf--av0_qhc-YpmSLyVRn6Mq_ioaEO-IRSf6MZoY6nNeHghzYzQhe2jiVBZUDeSjx2MFqJuSatgutiDMaKgnt2NipJMQAe",
+                    "width": 4815
+                }
+            ],
+            "place_id": "ChIJLxg1I7ONGRMRyOhn1amq-ZE",
+            "plus_code": {
+                "compound_code": "24V6+4X Partinico, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM24V6+4X"
+            },
+            "rating": 4.8,
+            "reference": "ChIJLxg1I7ONGRMRyOhn1amq-ZE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 72,
+            "vicinity": "Corso dei Mille, 456, Partinico"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3152028,
+                    "lng": 13.5728141
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.31655587989273,
+                        "lng": 13.57416427989272
+                    },
+                    "southwest": {
+                        "lat": 37.31385622010728,
+                        "lng": 13.57146462010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Giovanni Verde Fotografo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4134,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116115599434575602528\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmJVv-Wn44kQGaSmX9d65k9YWgXQ38kV7_YTovYz972nggy3NeSI1zwvb2RfMki0GuQ2gieBDvcqcYpjoPhbj-bB82STRhUhXtAYZ9j8RAYkC_LG4SbKc4wY2P_RSVZwZgXCGs94XJvHFxmwdwU7ofRfbReW75nJ7l3icWh3AeBxq6E",
+                    "width": 6202
+                }
+            ],
+            "place_id": "ChIJHQdRSeeDEBMRvdjNsmuxdDs",
+            "plus_code": {
+                "compound_code": "8H8F+34 Agrigento, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M8H8F+34"
+            },
+            "rating": 5,
+            "reference": "ChIJHQdRSeeDEBMRvdjNsmuxdDs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 42,
+            "vicinity": "Via XXV Aprile, 138, Agrigento"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.40207580000001,
+                    "lng": 13.6944812
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.40349512989272,
+                        "lng": 13.69581152989272
+                    },
+                    "southwest": {
+                        "lat": 37.40079547010728,
+                        "lng": 13.69311187010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Eidon Photo Studio",
+            "place_id": "ChIJvdBDY0WaEBMRzCLABCoj_jk",
+            "plus_code": {
+                "compound_code": "CM2V+RQ Grotte, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MCM2V+RQ"
+            },
+            "rating": 4.9,
+            "reference": "ChIJvdBDY0WaEBMRzCLABCoj_jk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "Viale della Vittoria, 180, Grotte"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2947295,
+                    "lng": 13.7951713
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.29607987989272,
+                        "lng": 13.79652117989272
+                    },
+                    "southwest": {
+                        "lat": 37.29338022010727,
+                        "lng": 13.79382152010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Atelier Vincenzo Lo Giudice Photografo",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJrfBpd1-OEBMRGTz98CB5IRM",
+            "plus_code": {
+                "compound_code": "7QVW+V3 Naro, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7QVW+V3"
+            },
+            "rating": 5,
+            "reference": "ChIJrfBpd1-OEBMRGTz98CB5IRM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11,
+            "vicinity": "Via Vittorio Emanuele, 10, Naro"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.541337,
+                    "lng": 13.644702
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.54268377989273,
+                        "lng": 13.64605287989272
+                    },
+                    "southwest": {
+                        "lat": 37.53998412010728,
+                        "lng": 13.64335322010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Creativity Photo & Video Solutions di Salvatore Di Piazza",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 6048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101280593191073817019\">Creativity Ptoho &amp; Video Solutions di Salvatore Di Piazza</a>"
+                    ],
+                    "photo_reference": "AVzFdbndhy4GMzIXsatbmq1ZiJaA8i2EKyvPEDQPnR-mogXdDCgNJD6fLbnPRn29mKCkRMzzjQWR-aSR2KxTxc-MJRhwrQNwY0LqIC5tjavxoZKGl4Nd6JPZ8Yr-m2-ZUS-25N2-5GTZm3EdEqFsmTqOKdM6H8FQd_7alI9_f-GgNTMHcLMK",
+                    "width": 4024
+                }
+            ],
+            "place_id": "ChIJyQ7tiRiiEBMRptdsPY9aSHY",
+            "plus_code": {
+                "compound_code": "GJRV+GV Casteltermini, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MGJRV+GV"
+            },
+            "rating": 4.9,
+            "reference": "ChIJyQ7tiRiiEBMRptdsPY9aSHY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 17,
+            "vicinity": "Via Trieste, 25, Casteltermini"
         }
     ],
     "status": "OK"

@@ -1,7 +1,108 @@
 {
     "html_attributions": [],
-    "next_page_token": "AVzFdbl8cxjdR87u_KlTE03_4l7lFH4AiUCYzp_7pyeEydMBWuJodS4zHPq75JGS5YaKjHIgx4zccYxWs3YLBhyEOad9ZAtsdoT2-4J53wlCumCFTYxsUshT4RtWsaaUFoRxK9B8U-ACKekrZdcY69GmAvJ9_BesCYcR3FdBFAoCbxFIoaLTRosrIK_Guo9qJeDcE5QzeYbFLeisv-dX2cHW0fYMUZiYeT-F96j4PnTZXPbfcvidkCqvdxQHvppodniuJLYP0G158tVzVDg6YU8YfjUYd_u8LG2sJy-9GYF5KZ6-SxB574K6ONhKVzer_HMRSliaqMzv3Po_wil6LKZwLYzUgF_QST6dxbJhpwlHR6j_oS2r3arykmi1BOmCAgCfP5YTF557XvqhoQ_qelWhKoBW0rdQjHOvC5m0qfYnGFYkG_YrifR1dcU",
+    "next_page_token": "AVzFdbnR9DEfY362LNVZtJEDtyJh8I2aneyf5kI6p42WV2lU0fGjK0nb9JtdBxR1g2c9DJwkCI5-kZVwK3nWCg30kCXnDtCr4sxmlM2XhHifJ50Qn17hQSVrkqiX2N9xG5ksH-Dhbdfbux_SUskyxq4DyGrfHN3oBGjtIyeKh4KBHCA3JAgpYsisApbscauCEGgpvbTw-VYRFLOJAJfV4-CDUTZgTky-5r2e4o6wOr_WQbQ5OQWU4SHzP50luwZEI_FTOdJbVOT5C0m4f6YmwVRBXj0poXoGdlNla1LBiiMf_nOXwissuWdMBOuXK-w3liYOjHTDw5kes1yOplj6kETOwUamfQGMYroLZTLkt1mKS4Hr_LmT7Pq81IGaiBacN9c_i4MniEDjhBbxtBvKgoOIbx9esyPzV5DYcF84CKNvEblFmARstn5FLQI",
     "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.4049656,
+                    "lng": 13.7353516
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.40633902989272,
+                        "lng": 13.73668637989272
+                    },
+                    "southwest": {
+                        "lat": 37.40363937010728,
+                        "lng": 13.73398672010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Atelier Falco Spose",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115430344199195749941\">Giuseppe Falco</a>"
+                    ],
+                    "photo_reference": "AVzFdblNXM-MqV1QbmICKNXb-MUBaV6r8EB6DweUGfbH_uc8ZGS6WQEQsnrXSuHR5o6BCpwyhoq3C8eQ_dWaHDk36oXxEvUcA-SqxvM0liqKvUOETaasoTCFMALmDwPJs0SMyaUPM79v-H6-0SY93h0mlR4aJNW8ibXwedhsYVEeMkr32msY",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJf4g4RQqREBMRVROjePNtKus",
+            "plus_code": {
+                "compound_code": "CP3P+X4 Racalmuto, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MCP3P+X4"
+            },
+            "rating": 4.8,
+            "reference": "ChIJf4g4RQqREBMRVROjePNtKus",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 44,
+            "vicinity": "Via Roma, 153, Racalmuto"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3933517,
+                    "lng": 13.5295288
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.39467267989272,
+                        "lng": 13.53089882989272
+                    },
+                    "southwest": {
+                        "lat": 37.39197302010727,
+                        "lng": 13.52819917010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Maison Sophie",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1693,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106306132019160275381\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnA7K_qz-NhIGRR4uDq8tqjWM1zJy4-NYO68ZLceYBqem1xVMl2F0zUx2AewW8u5bXN33KLu8S5-5FJKK6ZIfxrg18Bq87O2i7zdQm-m8bnN9BM_e0-MoL-FrlKNE9NXeRh62uULMo5KLGV5rcj0XarXsHavN79w9Xn3qhwnUFvjfP-",
+                    "width": 1170
+                }
+            ],
+            "place_id": "ChIJzWaJmT13GhMRVzTC-ITBXTY",
+            "plus_code": {
+                "compound_code": "9GVH+8R Raffadali, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9GVH+8R"
+            },
+            "rating": 5,
+            "reference": "ChIJzWaJmT13GhMRVzTC-ITBXTY",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 24,
+            "vicinity": "37.393482 13.529455, Raffadali"
+        },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
@@ -25,7 +126,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Giorni Felici Sposa",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -33,7 +134,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/116299525440856340345\">Giorni felici</a>"
                     ],
-                    "photo_reference": "AVzFdbn67cEQpovVMoT-bcpZvQfutd4BEB1bv-jkd6InTjDk0N2d_mFcYHxFN8zn37EPPNroRM4cEXWG43oUb7yHIA1bOuuD_KfpAjBRRuIdZHSc5v1XUIvR1ZVKGXdP5VlstnRApcxKnkM0l__PSsq4LUmAHAgGpx4ePTO1hp0K20zxVJdr",
+                    "photo_reference": "AVzFdbkeszuILpfr3fCS_Sfc6GwAmiv0NcAJlwi-BKxOv8MA2jOo86jCAJ6Ij6thaiHUmW_5oQtEmp4sQykgU5YL1xF7vvNjYU55wiEjmPk_XdeFEFHzVttpXPCNrInIzbCRc1nxLDrEQ5-YGM7WCYaCC7gH62poKr5AamLcNzMvw1gsTgUh",
                     "width": 690
                 }
             ],
@@ -77,7 +178,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Majorca Showroom",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -85,7 +186,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/106417155683159389478\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbk_pjkXY83VPHZXptQ8IGLv3NGDM0scF9sZAb4pEb83XJDHU8OTbBipXamKJX9_Vc7MO0_SPGbRJciitv7_N-LLK8g2jY3e7_e9b2H2dSbJAEZ9_XZTrIsFueQ80Gg_FUn0hzvXcgki8STpiPzG26lJ3YyRGiIndoxChLeDiy4Ivq9d",
+                    "photo_reference": "AVzFdbnl2pwykVOFUpTA_fJXUy2N899svFTtpgybR9eMp3V5pj22laMc2Rk8oYiZNZgriPonxgJx4vRsC_M23OQYbQnDdgHqtJDzV39W3ud4R2hzJaUBmHRpR5EXzAeMEDkRgf8WvAwmpBF8e5s1TPk8WOEWBrHhRPS85sGq2d2nTBti5_bj",
                     "width": 3024
                 }
             ],
@@ -129,7 +230,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Le Spose di Barone",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -137,7 +238,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/110337255493802337542\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbldCAjm8PKtyM7l8_tuar54REdARY8923ZIutha9NDrr_42sP52E0Rd2j3wBudkI2GmIEljOnYxKtAYyoY8dM7ctRvy3Sq3H8_SGnJnC7ebzFvYxkTASPTKmmuvSrHMnosfTwzpW2EAGW_79XZrl5R1PEWT4nbrh-Mwyj0OHjn8S-Fs",
+                    "photo_reference": "AVzFdbnJd91xnFNHbsL7fplD4IkIOCuBMqrsiLjoQqE2wlu2q4XadNJNShVbgYoH262nmACzN3dP2CdxA0GnD9MD-WZyyYNJia6ibJuFm1IW3cfq_G649XTtN7dgzZPaItibNjnonWlb8mFGnASa7f3OG4BbB68s7l2v2C-EP5RNY0PdaHm5",
                     "width": 960
                 }
             ],
@@ -162,110 +263,6 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.5122094,
-                    "lng": 13.0804285
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.51357952989272,
-                        "lng": 13.08180822989272
-                    },
-                    "southwest": {
-                        "lat": 37.51087987010727,
-                        "lng": 13.07910857010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Frasal Boutique",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 943,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102320830451021874052\">Frasal Di Maria Navarra</a>"
-                    ],
-                    "photo_reference": "AVzFdbk1DeXUHmvFXKB7GGqPFDO5R-mqF8A_ZkEjYMJyrPfyo32m4N9RXEUOPREKxwO5iYylI4BEU0v7KxNAIuz3En7zud9y_dcdVCvp09LaTgdxH5E7lUOfAg6Wwh61hkrZANzN4DwSAjoHTIvQoPnXS4sHNl2V3uVciI8crWwxp-QR5Psp",
-                    "width": 1242
-                }
-            ],
-            "place_id": "ChIJs2_PQq1GGhMR8dk-MsGuaD0",
-            "plus_code": {
-                "compound_code": "G36J+V5 Sciacca, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9MG36J+V5"
-            },
-            "rating": 4.6,
-            "reference": "ChIJs2_PQq1GGhMR8dk-MsGuaD0",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 69,
-            "vicinity": "Via Morandi R., 29, Sciacca"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3588939,
-                    "lng": 13.8495487
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.36023732989273,
-                        "lng": 13.85095232989272
-                    },
-                    "southwest": {
-                        "lat": 37.35753767010728,
-                        "lng": 13.84825267010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Galleria di Lo Giudice Abiti da Sposa Canicatt\u00ec",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2048,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112870743412232941396\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbkTVlvg2MgnIi2xyPFRkK-8H3rQh7CLkXL0wJhpNZQH5g638SM7EQqNpVMukxE8yNCZoSoPviTODQSxsyzFnMrPa3sBAhRTYNiCZHZIgNxn7fdPpzr8AjBi07BuwxjZuLJI0BfS8CapAJCeuICWzqkbDirbFuXpH65lMn-mUPUng62q",
-                    "width": 1536
-                }
-            ],
-            "place_id": "ChIJbyWAZUaSEBMRv-QDMJPy4fY",
-            "plus_code": {
-                "compound_code": "9R5X+HR Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9R5X+HR"
-            },
-            "rating": 4.3,
-            "reference": "ChIJbyWAZUaSEBMRv-QDMJPy4fY",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 55,
-            "vicinity": "Corso Umberto I, 112, Canicatt\u00ec"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
                     "lat": 37.3197013,
                     "lng": 13.6609568
                 },
@@ -285,7 +282,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Luxury Spose",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -293,7 +290,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111224053146265649471\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbk6aEAS1slt6PWi9iExanHNqfzxNxnOiIcK0GXFQhp9_ObZYKiKpoGeHDzuagHsoH0E_IOyNTB9hTCfhuDRXTmYskq9uO7MEMOZn0tqwvAB9nAYqrGOr04UdhFLjAo3oKX7v4m67w_qkyS26f8TC7j2DibH7rOamKRJiu4Tr15NnRor",
+                    "photo_reference": "AVzFdbmvUDAryOL7RHuy3nZcAZjvjvEdPRDNkLJtg5Tnn_woPpQKyDhyuM1sSGscVOo_o6eSLC0l_99ngE0PX4rtZAl3ykfUZsW71lP5AL5_kZB7lN5Gp_ByL3gvy_L1ARh3hEiiwFW_2Vp5MddC09ssbcYx7RXdcvRaNpnhAU4H_NMNEPXs",
                     "width": 1440
                 }
             ],
@@ -318,44 +315,44 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.3933517,
-                    "lng": 13.5295288
+                    "lat": 37.5122094,
+                    "lng": 13.0804285
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.39467267989272,
-                        "lng": 13.53089882989272
+                        "lat": 37.51357952989272,
+                        "lng": 13.08180822989272
                     },
                     "southwest": {
-                        "lat": 37.39197302010727,
-                        "lng": 13.52819917010728
+                        "lat": 37.51087987010727,
+                        "lng": 13.07910857010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
             "icon_background_color": "#4B96F3",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Maison Sophie",
+            "name": "Frasal Boutique",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 1693,
+                    "height": 943,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106306132019160275381\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/102320830451021874052\">Frasal Di Maria Navarra</a>"
                     ],
-                    "photo_reference": "AVzFdbn3FfqNJYw4B5_0nNZLpwcVOvQDvfhchT-ju89vXjQ_O45akckwDYtzj28cKeb6YIdqEu9TizS74kuyQCZ8YcnCvANx2rQNEV6dbyJAxG_hIZZWfdKITmJUSq-4pW7qxD-nDEGkaL-dZMKstiRqsywYvoA7YEPOYSVJQvGfT6jBjAv9",
-                    "width": 1170
+                    "photo_reference": "AVzFdbkjC-IgZFApdQqpzO1_QniFtrc9iYppW5_hws-P-0SCuu5s3dEgDLdZQkMTi4aoBITDpPGj9W0TSpMcaEvdSN2ew-_lEIszVDsyGeiwc-NuTnAu1IBuPfYb_7pT0WsYKF47IDiHULo1Znf3v8OwOAT4_U9v-JlLJJrXh94Im8v4plPn",
+                    "width": 1242
                 }
             ],
-            "place_id": "ChIJzWaJmT13GhMRVzTC-ITBXTY",
+            "place_id": "ChIJs2_PQq1GGhMR8dk-MsGuaD0",
             "plus_code": {
-                "compound_code": "9GVH+8R Raffadali, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9GVH+8R"
+                "compound_code": "G36J+V5 Sciacca, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9MG36J+V5"
             },
-            "rating": 5,
-            "reference": "ChIJzWaJmT13GhMRVzTC-ITBXTY",
+            "rating": 4.6,
+            "reference": "ChIJs2_PQq1GGhMR8dk-MsGuaD0",
             "scope": "GOOGLE",
             "types": [
                 "clothing_store",
@@ -363,51 +360,51 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 24,
-            "vicinity": "37.393482 13.529455, Raffadali"
+            "user_ratings_total": 69,
+            "vicinity": "Via Morandi R., 29, Sciacca"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 38.0217324,
-                    "lng": 13.0019942
+                    "lat": 38.0499755,
+                    "lng": 13.1237885
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 38.02310432989272,
-                        "lng": 13.00332927989272
+                        "lat": 38.05127912989272,
+                        "lng": 13.12508352989272
                     },
                     "southwest": {
-                        "lat": 38.02040467010728,
-                        "lng": 13.00062962010728
+                        "lat": 38.04857947010728,
+                        "lng": 13.12238387010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
             "icon_background_color": "#4B96F3",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Trinity Newlyweds Partinico Headquarters",
+            "name": "Rossana Puleo Atelier",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 4843,
+                    "height": 1800,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/103835084226279117049\">TRINITY SPOSI di Miriam Barb\u00e0ra</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/111326762900870867552\">Rossana Puleo Atelier</a>"
                     ],
-                    "photo_reference": "AVzFdbmI3KswsYeY4iC8ongLZIYK8R7Vkk2iiDuGpMwKW8Xp2AEr3lqB5RmJoe34GP7yzG87E1ams_9SbKKp4VFp85u-E2Wtz_R26J2bhpv4M9Ob4BKVCkJ8MDf3n3_K6MKocPqKt94heIBriyiZqZYXozPMkVpLjl0zhAo_49_TY9Tc2EYz",
-                    "width": 6969
+                    "photo_reference": "AVzFdbl5y0SJ_P1eenlwws8xlKvQTWLiwkwQsQK3kTlJlCsQYhEPbJVyn2ESJO1sTx9VSQCbsbW-Q-GJ9zns5ibv7O02GYjPLujwGA2_aSjIsMUHfxmuRO2-0__u-G2nTPki1teS5G2cySOqcHeCR8Evc2JM3oKU1gZ5FeeUm8Jrv2rYgqW_",
+                    "width": 1440
                 }
             ],
-            "place_id": "ChIJ_5gLj02MGRMR6-88m8SIBw0",
+            "place_id": "ChIJBbiFlqiNGRMR-7f-QbvTL9I",
             "plus_code": {
-                "compound_code": "22C2+MQ Partinico, Metropolitan City of Palermo, Italy",
-                "global_code": "8FCM22C2+MQ"
+                "compound_code": "24XF+XG Partinico, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM24XF+XG"
             },
-            "rating": 4.4,
-            "reference": "ChIJ_5gLj02MGRMR6-88m8SIBw0",
+            "rating": 4.9,
+            "reference": "ChIJBbiFlqiNGRMR-7f-QbvTL9I",
             "scope": "GOOGLE",
             "types": [
                 "clothing_store",
@@ -415,8 +412,112 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 215,
-            "vicinity": "Cda Tobia Snc ( SP 63 bis, Partinico"
+            "user_ratings_total": 8,
+            "vicinity": "Viale della Regione, 62/1 piano, Partinico"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3588939,
+                    "lng": 13.8495487
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.36023732989273,
+                        "lng": 13.85095232989272
+                    },
+                    "southwest": {
+                        "lat": 37.35753767010728,
+                        "lng": 13.84825267010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Galleria di Lo Giudice Abiti da Sposa Canicatt\u00ec",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112870743412232941396\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbk8BkMRdJKSyl-JHnTL-2BWElxtGc-pwSxWk-qm59m69Evjy-sj2K5xMOwwCQQVXe5ij_cmwaEGIeTedqG-gYsT-d_4gCwYdZwq1yPy2iTjesbZRXPms320ODRWmEDZdW1hNtc56mUdJCaAYHuyE0hq4CmS6Y0Lkm4wBcH-X-3ECNm_",
+                    "width": 1536
+                }
+            ],
+            "place_id": "ChIJbyWAZUaSEBMRv-QDMJPy4fY",
+            "plus_code": {
+                "compound_code": "9R5X+HR Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9R5X+HR"
+            },
+            "rating": 4.3,
+            "reference": "ChIJbyWAZUaSEBMRv-QDMJPy4fY",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 55,
+            "vicinity": "Corso Umberto I, 112, Canicatt\u00ec"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.5998099,
+                    "lng": 12.9685305
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.60115752989272,
+                        "lng": 12.96988342989272
+                    },
+                    "southwest": {
+                        "lat": 37.59845787010727,
+                        "lng": 12.96718377010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Nadia Spose",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 495,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115571076829656664436\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbmmvfXsObfx2bYYvPXf1R4YceQS_yMvyOv5sv9hOtZSG_eTkANw980oTCxoO6HCP6uKn5O98qVgWvPA0qtsoA7tibsZGvbRiRmdets6_yUOtMCepplK1ChCrxGiqftCQlcboxiiHIfTje4YDvHOehlmelsu6OptkKVEG6tVmnOwhFzm",
+                    "width": 800
+                }
+            ],
+            "place_id": "ChIJj80jX3I3GhMRiQ40zR_36Cw",
+            "plus_code": {
+                "compound_code": "HXX9+WC Menfi, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9JHXX9+WC"
+            },
+            "rating": 5,
+            "reference": "ChIJj80jX3I3GhMRiQ40zR_36Cw",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "Via Leonardo Cacioppo, 91, Menfi"
         },
         {
             "business_status": "OPERATIONAL",
@@ -441,7 +542,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Blanc Sposa",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -449,7 +550,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/105371404726965947472\">Blanc Sposa</a>"
                     ],
-                    "photo_reference": "AVzFdblbEjnMH9Wzp2_PL157gJ5h9WAsrT26aF1YakjGTNY3LTTV6PHSY9dYV0_BxFBrK8HrAOxpphQwyXYAvBQYoBFtYAKs43g2vBEh5SZ_whl4VrRWvDs5Za-W9UMJJB79KJYK03DX2RTdx_s5s6sHlTenlNoQD8y3iut_Fy3foii8wcnX",
+                    "photo_reference": "AVzFdbkeUmz9S7sVEwlMhnhBuLVhEwEuGCSDSWtU9F8UvumefWDpBqFgERiOXOQCSbUnrm-4kOtSinv7lMOFHA50-GsYUtlEaObTgxcNCPO0JW7g_HerFqLMPj7skrQPjXgES8I0OPWzkYJ4lQTh0nKPJV5alkyFNm6deH1oMMr2NPtgshfe",
                     "width": 512
                 }
             ],
@@ -475,6 +576,58 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 38.0217324,
+                    "lng": 13.0019942
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 38.02310432989272,
+                        "lng": 13.00332927989272
+                    },
+                    "southwest": {
+                        "lat": 38.02040467010728,
+                        "lng": 13.00062962010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Trinity Newlyweds Partinico Headquarters",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 4843,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103835084226279117049\">TRINITY SPOSI di Miriam Barb\u00e0ra</a>"
+                    ],
+                    "photo_reference": "AVzFdbkvdSuJEcD3FnKOwbZJ08tc2T1hcsoatnFisMqkJNJki6Ciom_tmXNhVhglttF384ecIx1XzjXUv3HclyKrPbjeyLkS_Z1b2QETTNe9pSCQauFnrZ4e64r6N3Plnf5LWMoMZw01LOlil1wdKGFmqhPwOXdDrEtGTuraFGFj6IaRTP1-",
+                    "width": 6969
+                }
+            ],
+            "place_id": "ChIJ_5gLj02MGRMR6-88m8SIBw0",
+            "plus_code": {
+                "compound_code": "22C2+MQ Partinico, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM22C2+MQ"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ_5gLj02MGRMR6-88m8SIBw0",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 215,
+            "vicinity": "Cda Tobia Snc ( SP 63 bis, Partinico"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 37.98166,
                     "lng": 12.964339
                 },
@@ -494,7 +647,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Bianco Sposa Atelier",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -502,7 +655,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111615099660714570874\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbnwSgPlmSvm7UB58vGjZlMDivotziXHtkOUsZ_TPwVwEiXCu9tFAVEVdofeAyZ_smRJhc23qeDqK9lhlHVVGWotELEdjBoBJWSsnZjB11Pxd5xSqx4qEZJp85t2vqcyW_tOYcT4oDFwcVDrVcnIhMC8dEvZNO-8kP45uXdG-rlFoOq1",
+                    "photo_reference": "AVzFdbmEzp8zEvH05FF_G3D4AVkeRxCwX3wIXI5tZDiZjtlp4PKnMZ5fWMlWNt8nTiId6CPi2b0xnLKJsoyQZXW6e4-zhIybvNQV4l6GNlPYRIPedmJM3oz0pv3gX-ySf7901i2apFS3qZp17YdaueQOyXVT-ZAa_JqSliq0-E_vNaV_aGjM",
                     "width": 1080
                 }
             ],
@@ -527,44 +680,44 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.5998099,
-                    "lng": 12.9685305
+                    "lat": 38.0516406,
+                    "lng": 13.0056295
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.60115752989272,
-                        "lng": 12.96988342989272
+                        "lat": 38.05301857989271,
+                        "lng": 13.00696762989272
                     },
                     "southwest": {
-                        "lat": 37.59845787010727,
-                        "lng": 12.96718377010728
+                        "lat": 38.05031892010727,
+                        "lng": 13.00426797010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
             "icon_background_color": "#4B96F3",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Nadia Spose",
+            "name": "Maria Grazia Albano Collections Bride",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 495,
+                    "height": 3240,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/115571076829656664436\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/117712696154182091721\">Maria Grazia Albano</a>"
                     ],
-                    "photo_reference": "AVzFdblOvHOKGnW1Pmtbvcxi9s1bYO8O0i-XbvgsOF1cge49k4QttH9ZFccxJzrMWMCZ3WfjK_8j1WRS1ZnLS7h86aWQLZMnm3NrjbE9tXHFR8ayEOLYUZTwHIEOlsG2m0rse6NJmjc8RJ7H5XG3xkACLS9p875iIvb0g62PrcPGMTuIq8S-",
-                    "width": 800
+                    "photo_reference": "AVzFdbnsxZ1dusFXSf9AvrNXyLUMTJdaPSny5qT3SKTWut8yFwDqzjBH98QkmOJcktGqmHZd2N9e4vJiRWIaQGA1lcqu02DDsJUT_3eTjLYsTwovByEXd7kHYaYZ7i8n0uFcax4bNcyAUx7ZPkxgNIfyX4Okdxq7mqd48e-YHXqVgLy5qGhP",
+                    "width": 4320
                 }
             ],
-            "place_id": "ChIJj80jX3I3GhMRiQ40zR_36Cw",
+            "place_id": "ChIJzwyCfHaPGRMRPNnEw-F-37E",
             "plus_code": {
-                "compound_code": "HXX9+WC Menfi, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9JHXX9+WC"
+                "compound_code": "3224+M7 Balestrate, Metropolitan City of Palermo, Italy",
+                "global_code": "8FCM3224+M7"
             },
-            "rating": 5,
-            "reference": "ChIJj80jX3I3GhMRiQ40zR_36Cw",
+            "rating": 4.8,
+            "reference": "ChIJzwyCfHaPGRMRPNnEw-F-37E",
             "scope": "GOOGLE",
             "types": [
                 "clothing_store",
@@ -572,8 +725,8 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 7,
-            "vicinity": "Via Leonardo Cacioppo, 91, Menfi"
+            "user_ratings_total": 63,
+            "vicinity": "Via Giuseppe Mazzini, 34, Balestrate"
         },
         {
             "business_status": "OPERATIONAL",
@@ -598,7 +751,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Montanti Spose",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -606,7 +759,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/114530332894530662651\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbnOP9amQfjd83aSaUOPwv8GWUKdhWpAesoX7tiZ6rlBqShMJTOurI3d1m4G47k5_XYKB5-oKkeI7ouTRN7YZBONNJINVFp1LduohaUeDkfrgVWAfp1tWF017kGsTfyzvDj2-9QU5ZWKhHzpD1yI2KHShVwi7KdWUrNnCyPeXg17hJl0",
+                    "photo_reference": "AVzFdbn6PJdrfffYP0uGYeiY-77fjzUYCUQz2i57qx50ckU_5W8CrZQ4w97dcTzQkb_2erxBDXTVA43po-trQt9_iTri34_4bpIwnr2NDPGWMptvO81pj2VBRI6E4wpLFYiA1kjoejwAm__soi-RNOYE0BUkGDK7mthuPDyO5y9vPlFyLQnR",
                     "width": 724
                 }
             ],
@@ -650,7 +803,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Idea Nozze Giambrone Atelier",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "place_id": "ChIJpakscdpNFxMREZtfRYGNqU8",
             "plus_code": {
@@ -668,266 +821,6 @@
             ],
             "user_ratings_total": 13,
             "vicinity": "Corso Umberto I, 160, Sciara"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.3869014,
-                    "lng": 13.7680853
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.38797322989272,
-                        "lng": 13.76984022989272
-                    },
-                    "southwest": {
-                        "lat": 37.38527357010727,
-                        "lng": 13.76714057010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Scalzo Sposi Cerimonia",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3472,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106562020357239309715\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbkHD79swfosZAidXYXXJTYi7gpQjoAbSZlLvaZ-SR1F6Tm5c4LqMQuTL-hxQmHLfoegww7THrQNf8yIM75WgDD85Vm66WCX5yKZwDmr48AL8kEbkrPDDp1aIZEqRERaVv5siBMYKX3TRZN0dXMUWpP9FSKADxJSLROw-40835L63RNW",
-                    "width": 3472
-                }
-            ],
-            "place_id": "ChIJNcQMw0CSEBMRw9IkCdLVfqQ",
-            "plus_code": {
-                "compound_code": "9QP9+Q6 Castrofilippo, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9QP9+Q6"
-            },
-            "rating": 4.3,
-            "reference": "ChIJNcQMw0CSEBMRw9IkCdLVfqQ",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 10,
-            "vicinity": "SS122, Castrofilippo"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 38.0450706,
-                    "lng": 13.1161989
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 38.04644907989272,
-                        "lng": 13.11752122989272
-                    },
-                    "southwest": {
-                        "lat": 38.04374942010728,
-                        "lng": 13.11482157010727
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Odette Di Giovanna Monte",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1600,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/116728100311583766285\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbno8-vGHabbF-PphFxmRvGH5lAgU4_yQnKNN2tWAN0CiBLqh8qLZZXhhNm7PpOf6qm2epx3PB6ctk2FDxRleI89RKNkUxtIAnyEFviQnorYYY4-dvinoSg9DnFN3uERF_BPyu7wfb04yGnb0N5I0LlUvQRzuyCStbO9VKfR1F8mKpOQ",
-                    "width": 900
-                }
-            ],
-            "place_id": "ChIJp8VDdLKNGRMRVp9eeJrktXA",
-            "plus_code": {
-                "compound_code": "24W8+2F Partinico, Metropolitan City of Palermo, Italy",
-                "global_code": "8FCM24W8+2F"
-            },
-            "rating": 5,
-            "reference": "ChIJp8VDdLKNGRMRVp9eeJrktXA",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 5,
-            "vicinity": "Via Francesco Crispi, 61, Partinico"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.8130727,
-                    "lng": 13.3006625
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.81443282989272,
-                        "lng": 13.30202402989272
-                    },
-                    "southwest": {
-                        "lat": 37.81173317010727,
-                        "lng": 13.29932437010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Atelier segreti di annaSaporito",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1280,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113466624994426003825\">A Google User</a>"
-                    ],
-                    "photo_reference": "AVzFdbnjqZIA_rdAvBwS2_mGOIiBLk5XeFsEWmkl08ctPDpXtN_flWcFxMa1hCntb2HsdsQzu1_ejP00dL0xI9h94ZtXnTuchRVZ9F70Bki-x2DmWVk0eRd81Ef3eRBV0Q8tjW0kY_v0Xi37Ek6JKybB3B3a90syXOSbtChYO2lDv8m4DE_V",
-                    "width": 1024
-                }
-            ],
-            "place_id": "ChIJT0CYMXEcGhMRk3o34_e8kF8",
-            "plus_code": {
-                "compound_code": "R872+67 Corleone, Metropolitan City of Palermo, Italy",
-                "global_code": "8F9MR872+67"
-            },
-            "rating": 5,
-            "reference": "ChIJT0CYMXEcGhMRk3o34_e8kF8",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 20,
-            "vicinity": "Via Francesco Bentivegna, 110, Corleone"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 37.353072,
-                    "lng": 13.8449723
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 37.35442702989272,
-                        "lng": 13.84630472989272
-                    },
-                    "southwest": {
-                        "lat": 37.35172737010728,
-                        "lng": 13.84360507010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Abiti Da Sposa Lunaraine",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2048,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114858921526866227504\">Abiti Da Sposa Lunaraine</a>"
-                    ],
-                    "photo_reference": "AVzFdbl4QSSIu_nIZvafLq5gbsVlyq0Mf_Glm0Og21wu9IqjU3F0vfZuOC7dzjRslEwz2PM8LiwlK7G9eUJDrgZyzfMRZCDWAf-Y-vnO1lDhToE8rKkGpjyc489V7qhbOehlPk3eCERM9GG3suCd9JgYALdf6e84znCGQkiokPG-4rV0Es-l",
-                    "width": 1638
-                }
-            ],
-            "place_id": "ChIJTZDYNkaSEBMRApRQwI1Bcbo",
-            "plus_code": {
-                "compound_code": "9R3V+6X Canicatt\u00ec, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M9R3V+6X"
-            },
-            "rating": 4.3,
-            "reference": "ChIJTZDYNkaSEBMRApRQwI1Bcbo",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 55,
-            "vicinity": "Via Monsignor Ficarra, 3, Canicatt\u00ec"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 38.0499755,
-                    "lng": 13.1237885
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 38.05127912989272,
-                        "lng": 13.12508352989272
-                    },
-                    "southwest": {
-                        "lat": 38.04857947010728,
-                        "lng": 13.12238387010728
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Rossana Puleo Atelier",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1800,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/111326762900870867552\">Rossana Puleo Atelier</a>"
-                    ],
-                    "photo_reference": "AVzFdbk8nT9egwe9ER6h8A6RWk7lecO617VxGgaKxZMJVTIR9SlmHtTS5yBUazFvhtZ5zkKkeTNH1EFvjvy-Ua7WR7c-lIPECbPrFResl27lJY5z62f1acFGLRox56tzc8J3LHW7B4BcCoKyxmUm6DkRxj5B92tzRn46eu7QQgKE4NpVIipM",
-                    "width": 1440
-                }
-            ],
-            "place_id": "ChIJBbiFlqiNGRMR-7f-QbvTL9I",
-            "plus_code": {
-                "compound_code": "24XF+XG Partinico, Metropolitan City of Palermo, Italy",
-                "global_code": "8FCM24XF+XG"
-            },
-            "rating": 4.9,
-            "reference": "ChIJBbiFlqiNGRMR-7f-QbvTL9I",
-            "scope": "GOOGLE",
-            "types": [
-                "clothing_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 8,
-            "vicinity": "Viale della Regione, 62/1 piano, Partinico"
         },
         {
             "business_status": "OPERATIONAL",
@@ -952,7 +845,7 @@
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
             "name": "Adriana Ferrito | Atelier",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
@@ -960,7 +853,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/107031517866749537019\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbmrnKI41X3Mjob1SPCjEdD_JjmuQIGV9rGhtKufW6jWczmWR6TeBIEaZ7PzUpWUWceCluWKshu4pvp-pMDQHdSEjxIRkFxn2sO1FKxdpkdcaCd5MEpf-yBTWSUnKzDQM82ujExBuehlFE1jjaslzmoIfD042CZKyFY4YNUiV_uwpfg",
+                    "photo_reference": "AVzFdbmOaVo9PJSWobx32_syJ0h7iWq-w9kSJ4Yo-1uy6zOP2HuquIG2d6mAge4BZLJNJz1U3W-2ls9jXRJUnhifeAoZvW1sjiQ7tFBXAknbIL5x6-IPb9cEIMfFm8006qcGsofWTyBJ1nT1eoVNXX5cdFcVdoNQ0VV9u5s-igS2mMMsN5Y",
                     "width": 1536
                 }
             ],
@@ -985,44 +878,44 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 37.3194729,
-                    "lng": 13.6611354
+                    "lat": 37.8130727,
+                    "lng": 13.3006625
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 37.32080507989272,
-                        "lng": 13.66250772989272
+                        "lat": 37.81443282989272,
+                        "lng": 13.30202402989272
                     },
                     "southwest": {
-                        "lat": 37.31810542010727,
-                        "lng": 13.65980807010728
+                        "lat": 37.81173317010727,
+                        "lng": 13.29932437010728
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
             "icon_background_color": "#4B96F3",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "name": "Montaperto Spose, Home Design",
+            "name": "Atelier segreti di annaSaporito",
             "opening_hours": {
-                "open_now": true
+                "open_now": false
             },
             "photos": [
                 {
-                    "height": 3264,
+                    "height": 1280,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118004121364382887481\">A Google User</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/113466624994426003825\">A Google User</a>"
                     ],
-                    "photo_reference": "AVzFdbniptnrZ6vm-mku4EPXxegeXEfafUoSdAXBRCLeFeEUvKwUdQtbsMgs4po9rPlakXyjbWLmc-JI49caU1rDTXnkmY8HPcbvUZjoKvytu1VeEjnuWhRa1F3uoLgDCTLXtH_9fHORD7oFaxpyST35mv0EHGI8xp9cxhbAy_MSFIji2FY0",
-                    "width": 2448
+                    "photo_reference": "AVzFdbl-IQWW-ghzhHf2ThXUWR67coRG0JMcvN8B_ItmGnV1cLhgA9R-4uIlU4Vbe-sG5dov6S4oPSfxY8wG_sN2dubjSbVAA4DfljyUWrbqT5msTQHoe3651GqnSR0jGfdlPVSJG-YroVE7Nl2fYwrgnd5pf3tUDCRmUhRUp4S26fggkc2U",
+                    "width": 1024
                 }
             ],
-            "place_id": "ChIJz5TZlvKEEBMRwEz8RP45WhU",
+            "place_id": "ChIJT0CYMXEcGhMRk3o34_e8kF8",
             "plus_code": {
-                "compound_code": "8M96+RF Favara, Free municipal consortium of Agrigento, Italy",
-                "global_code": "8F9M8M96+RF"
+                "compound_code": "R872+67 Corleone, Metropolitan City of Palermo, Italy",
+                "global_code": "8F9MR872+67"
             },
-            "rating": 4.5,
-            "reference": "ChIJz5TZlvKEEBMRwEz8RP45WhU",
+            "rating": 5,
+            "reference": "ChIJT0CYMXEcGhMRk3o34_e8kF8",
             "scope": "GOOGLE",
             "types": [
                 "clothing_store",
@@ -1030,8 +923,112 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 8,
-            "vicinity": "Via Francesco Crispi, 2, Favara"
+            "user_ratings_total": 20,
+            "vicinity": "Via Francesco Bentivegna, 110, Corleone"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.2719087,
+                    "lng": 13.6169872
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.27326372989273,
+                        "lng": 13.61834292989272
+                    },
+                    "southwest": {
+                        "lat": 37.27056407010728,
+                        "lng": 13.61564327010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Lady Regina & Sposiamoci Outlet Sposa",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111138157787885057682\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbnkAntH6Y9y91gNWeWjJF5YJoZwhiQ2tqztNK6Qux4jgVM0YmnBvfzbV3fLhC5jqs1ofykvscbfuk9E1zhm5Mxd8sieQFTkSXwRo033wyoL3nkAngAeUjCVuXQqV7I1r1MIeIOEEeDmia-AaSVgUGwejk748dMl7CmQq5JQ3MYmB8YB",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ-_WrdrB4GhMRNTWrsP3p4o0",
+            "plus_code": {
+                "compound_code": "7JC8+QQ Villaggio Mos\u00e8, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M7JC8+QQ"
+            },
+            "rating": 4.9,
+            "reference": "ChIJ-_WrdrB4GhMRNTWrsP3p4o0",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 25,
+            "vicinity": "Via Lombardia, 1, Villaggio Mos\u00e8"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.3869014,
+                    "lng": 13.7680853
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.38797322989272,
+                        "lng": 13.76984022989272
+                    },
+                    "southwest": {
+                        "lat": 37.38527357010727,
+                        "lng": 13.76714057010728
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Scalzo Sposi Cerimonia",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 3472,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106562020357239309715\">A Google User</a>"
+                    ],
+                    "photo_reference": "AVzFdbluzcrqmQWDEYzxH7HnEQqIhnBi3HqkEdtWn-d3jq9qucO_YM9oSh8Pnjed7nSp-MROkE4jZKTLRsSHhz7Drou1__-OoydHCKRVkplTYWzIWCkBJaJv1A2YDHgfEsyC51MKx6oK_o2Au0BVTIMahmLAzUlGMuL8Ic91v59CcxjTPW43",
+                    "width": 3472
+                }
+            ],
+            "place_id": "ChIJNcQMw0CSEBMRw9IkCdLVfqQ",
+            "plus_code": {
+                "compound_code": "9QP9+Q6 Castrofilippo, Free municipal consortium of Agrigento, Italy",
+                "global_code": "8F9M9QP9+Q6"
+            },
+            "rating": 4.3,
+            "reference": "ChIJNcQMw0CSEBMRw9IkCdLVfqQ",
+            "scope": "GOOGLE",
+            "types": [
+                "clothing_store",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 10,
+            "vicinity": "SS122, Castrofilippo"
         }
     ],
     "status": "OK"

@@ -8,9 +8,6 @@ import os
 from dotenv import load_dotenv
 import requests
 
-# from app import db
-# from app.models import Vendor
-
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))

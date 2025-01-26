@@ -38,9 +38,13 @@ class Vendor(db.Model):
     hours = db.Column(db.String(100), nullable=True)  # Operating hours
 
     def __repr__(self):
+        '''return string representation of the object
+        '''
         return f"<Vendor {self.name}>"
 
     def to_dict(self):
+        '''return attributes ad dictionary
+        '''
         return {
             "id": self.id,
             "name": self.name,
