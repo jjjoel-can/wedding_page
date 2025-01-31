@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <ul>
+        {% for vendor in results %}
+            <li>
+                <h2>{{ vendor.name }}</h2>
+                <p>Service Type: {{ vendor.service_type }}</p>
+                <p>Address: {{ vendor.address }}</p>
+                <p>City: {{ vendor.city }}</p>
+                <p>Contact: {{ vendor.contact }}</p>
+                <p>Hours: {{ vendor.hours }}</p>
+                <p>Picture URL: <a href="{{ vendor.picture_url }}">{{ vendor.picture_url }}</a></p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
