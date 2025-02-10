@@ -11,6 +11,7 @@ class Vendor(db.Model):
     __tablename__ = "vendors"
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    country = db.Column(db.String(100), nullable=True) # added country
     service_type = db.Column(db.String(50), nullable=False)
     price_range = db.Column(db.String(50), nullable=True)
     address = db.Column(db.String(200), nullable=True)  # Physical address
@@ -33,6 +34,7 @@ class Vendor(db.Model):
             "service_type": self.service_type,
             "price_range": self.price_range,
             "address": self.address,
+            "country": self.country,
             "city": self.city,
             "contact": self.contact,
             "hours": self.hours,
