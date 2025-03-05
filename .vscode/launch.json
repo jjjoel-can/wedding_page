@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch Flask App",
+            "program": "${workspaceFolder}/app/app.py",
+            "envFile": "${workspaceFolder}/.env",
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "jinja": true,
+            "justMyCode": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}

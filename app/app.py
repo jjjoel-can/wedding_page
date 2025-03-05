@@ -7,6 +7,10 @@ from flask import Flask, render_template, request
 from flask_migrate import Migrate
 from app.resources import api
 from app.models import db, Vendor
+import logging
+
+# Configure logging before anything else
+logging.basicConfig(level=logging.DEBUG)
 
 def test_something():
     print('this is a test')

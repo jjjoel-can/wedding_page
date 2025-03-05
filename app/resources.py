@@ -39,7 +39,8 @@ class VendorListResource(Resource):
         new_vendor = Vendor(
             name=args["name"],
             service_type=args["service_type"],
-            price_range=args.get("price_range")
+            #price_range=args.get("price_range")
+            price_range = args["price_range"]
         )
         db.session.add(new_vendor)
         db.session.commit()
