@@ -16,6 +16,7 @@
                 <p>City: {{ vendor.city }}</p>
                 <p>Contact: {{ vendor.contact }}</p>
                 <p>Hours: {{ vendor.hours }}</p>
+                <p>Website: <a href="{{ vendor.website|e }}">{{ vendor.website|e }}</a></p>
                 <!-- <p>Picture URL: <a href="{{ vendor.picture_url }}">{{ vendor.picture_url }}</a></p> -->
                 {% if vendor.picture_url and vendor.picture_url != 'N/A' %}
                 <img src="{{ vendor.picture_url }}" alt="{{ vendor.name }}" style="max-width: 300px; height: auto;">

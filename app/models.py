@@ -19,6 +19,14 @@ class Vendor(db.Model):
     contact = db.Column(db.String(100), nullable=True)  # Email/phone/social media
     hours = db.Column(db.String(100), nullable=True)  # Operating hours
     picture_url = db.Column(db.String(200), nullable=True)  # URL or path to the picture
+    website = db.Column(db.String(200), nullable=True)  # Website URL
+    instagram = db.Column(db.String(200), nullable=True)  # Instagram URL
+    facebook = db.Column(db.String(200), nullable=True)  # Facebook URL
+    twitter = db.Column(db.String(200), nullable=True)  # Twitter URL
+    linkedin = db.Column(db.String(200), nullable=True)  # LinkedIn URL
+    youtube = db.Column(db.String(200), nullable=True)  # YouTube URL
+    tiktok = db.Column(db.String(200), nullable=True)  # TikTok URL
+    pinterest = db.Column(db.String(200), nullable=True)  # Pinterest URL
 
     def __repr__(self):
         '''return string representation of the object
@@ -38,5 +46,13 @@ class Vendor(db.Model):
             "city": self.city,
             "contact": self.contact,
             "hours": self.hours,
-            "picture_url": self.picture_url
+            "picture_url": self.picture_url,
+            "website": self.website,
+            "instagram": self.instagram,
+            "facebook": self.facebook,
+            "twitter": self.twitter,
+            "linkedin": self.linkedin,
+            "youtube": self.youtube,
+            "tiktok": self.tiktok,
+            "pinterest": self.pinterest
         }
