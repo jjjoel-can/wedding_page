@@ -17,3 +17,6 @@ venv/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# ignore database
+*vendors.db

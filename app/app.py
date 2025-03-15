@@ -7,6 +7,7 @@ from flask import Flask, render_template, request
 from flask_migrate import Migrate
 from app.resources import api
 from app.models import db, Vendor
+from sqlalchemy import and_
 import logging
 
 # Configure logging before anything else
@@ -58,15 +59,29 @@ def create_app():
             search_term = request.form.get('search')
 
             # Query the database based on the form data
-            query = Vendor.query
+            # query = Vendor.query
+            # if country:
+            #     query = query.filter(Vendor.address.contains(country))
+            # if service:
+            #     query = query.filter(Vendor.service_type == service)
+            # if search_term:
+            #     query = query.filter(Vendor.name.contains(search_term))
+            
+            # change on march 15
+            # Combine filters using and_
+            filters = []
             if country:
-                query = query.filter(Vendor.address.contains(country))
+                filters.append(Vendor.address.contains(country))
             if service:
-                query = query.filter(Vendor.service_type == service)
-            if search_term:
-                query = query.filter(Vendor.name.contains(search_term))
+                filters.append(Vendor.service_type == service)
+            if search_term: # TODO: search term could be name, service, or address
+                filters.append(Vendor.name.contains(search_term))
 
+            # Apply combined filters to the query
+            query = Vendor.query.filter(and_(*filters))
             results = query.all()
+
+            print(results)
 
             return render_template('results.html', results=results)
         return render_template('index.html')
