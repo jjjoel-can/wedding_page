@@ -34,6 +34,11 @@ def create_app():
 
     migrate = Migrate(app, db)  # Initialize the Migrate object
 
+    # Register models
+    # @app.shell_context_processor
+    # def make_shell_context():
+    #     return {'db': db, 'Vendor': Vendor}
+
     # Register routes
     @app.route('/')
     def home():
@@ -51,27 +56,19 @@ def create_app():
     def privacy():
         return render_template("privacy.html")
 
+    # this is where the search function is
     @app.route('/search', methods=['GET', 'POST'])
     def search():
         if request.method == 'POST':
+            # get search terms from the form
             country = request.form.get('country')
             service = request.form.get('service')
             search_term = request.form.get('search')
-
-            # Query the database based on the form data
-            # query = Vendor.query
-            # if country:
-            #     query = query.filter(Vendor.address.contains(country))
-            # if service:
-            #     query = query.filter(Vendor.service_type == service)
-            # if search_term:
-            #     query = query.filter(Vendor.name.contains(search_term))
             
-            # change on march 15
             # Combine filters using and_
             filters = []
             if country:
-                filters.append(Vendor.address.contains(country))
+                filters.append(Vendor.country.contains(country))
             if service:
                 filters.append(Vendor.service_type == service)
             if search_term: # TODO: search term could be name, service, or address
@@ -81,10 +78,20 @@ def create_app():
             query = Vendor.query.filter(and_(*filters))
             results = query.all()
 
-            print(results)
+            #print(results)
+
+            if not results:
+                error_message = f"No results found for the search term: {search_term}"
+                return render_template('no_results.html')
 
             return render_template('results.html', results=results)
         return render_template('index.html')
+    
+    # Custom 404 error handler
+    @app.errorhandler(404)
+    def page_not_found(e):
+        error_message = "The page you are looking for does not exist."
+        return render_template('no_results.html', error_message=error_message), 404
 
     return app
 

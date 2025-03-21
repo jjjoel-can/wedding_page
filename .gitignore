@@ -20,3 +20,4 @@ Thumbs.db
 
 # ignore database
 *vendors.db
+*vendors.csv
