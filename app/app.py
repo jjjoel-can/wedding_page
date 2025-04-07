@@ -43,6 +43,10 @@ def create_app():
     @app.route('/')
     def home():
         return render_template('index.html')  # Render the HTML template
+
+    @app.route("/no_results")
+    def no_results():
+        return render_template("no_results.html")
     
     @app.route("/contact")
     def contact():
@@ -71,7 +75,7 @@ def create_app():
                 filters.append(Vendor.country.contains(country))
             if service:
                 filters.append(Vendor.service_type == service)
-            if search_term: # TODO: search term could be name, service, or address
+            if search_term: 
                 filters.append(Vendor.name.contains(search_term))
 
             # Apply combined filters to the query
@@ -79,12 +83,16 @@ def create_app():
             results = query.all()
 
             #print(results)
-
             if not results:
                 error_message = f"No results found for the search term: {search_term}"
                 return render_template('no_results.html')
+            
+            # Filter out vendors without a website (better approach)
+            #filtered_results = [vendor for vendor in results if vendor.website != 'N/A' or None]
+            # Filter out vendors without a website (better approach)
+            filtered_results = [vendor for vendor in results if vendor.website and vendor.website != 'N/A']
 
-            return render_template('results.html', results=results)
+            return render_template('results.html', results=filtered_results)
         return render_template('index.html')
     
     # Custom 404 error handler
