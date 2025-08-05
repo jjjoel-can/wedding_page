@@ -31,6 +31,8 @@
                 <div class="col">
                     <div class="card shadow-sm vendor-card h-100">
                         {% if vendor.picture_url and vendor.picture_url != 'N/A' %}
+                            <a href="{{ vendor.website|e }}" target="_blank"> 
+                                <img src="{{ vendor.picture_url }}" class="card-img-top" alt="{{ vendor.name }}" loading="lazy">
                             <img src="{{ vendor.picture_url }}" class="card-img-top" alt="{{ vendor.name }}" loading="lazy">
                         {% else %}
                             <img src="https://via.placeholder.com/300x200?text=No+Image" class="card-img-top" alt="No image available">
