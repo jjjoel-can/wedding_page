@@ -21,3 +21,6 @@ Thumbs.db
 # ignore database
 *vendors.db
 *vendors.csv
+
+# ignore vscdoe
+.vscode
