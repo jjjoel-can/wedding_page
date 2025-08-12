@@ -2,6 +2,8 @@
 
 import requests
 
+print('Hello World')
+
 overpass_url = "https://overpass-api.de/api/interpreter"
 query = """
 [out:json][timeout:50];
@@ -25,6 +27,8 @@ out center tags;
 
 response = requests.post(overpass_url, data={"data": query})
 data = response.json()
+
+print(data)
 
 for el in data["elements"]:
     tags = el.get("tags", {})
