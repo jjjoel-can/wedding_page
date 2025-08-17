@@ -39,6 +39,13 @@ def create_app():
     # def make_shell_context():
     #     return {'db': db, 'Vendor': Vendor}
 
+    # todo: integrate into the app
+    # @app.route('/run_pipeline')
+    # def run_pipeline():
+    #     from data_pipeline import main
+    #     main()
+    # return "Pipeline executed!"
+
     # Register routes
     @app.route('/')
     def home():

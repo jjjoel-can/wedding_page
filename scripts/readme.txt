@@ -1,0 +1,3 @@
+- this is basically the messy folder 
+- probably depreciated by might come in handy
+- delete for production version

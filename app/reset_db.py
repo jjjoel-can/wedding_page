@@ -1,3 +1,8 @@
+"""
+This script resets the database by dropping all existing tables and recreating them.
+It is useful for development purposes when you need to start with a clean database.
+"""
+
 import sys
 import os
 from dotenv import load_dotenv
