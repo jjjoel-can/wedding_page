@@ -9,9 +9,16 @@ information in JSON format and that the database schema is already defined in mo
 import json
 from sqlalchemy import create_engine, exc
 from sqlalchemy.orm import sessionmaker
-from models import db, Vendor  # Assume models.py has db and Vendor
+#from models import db, Vendor  # Assume models.py has db and Vendor
+
 import config
 from dotenv import load_dotenv
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from app.models import db, Vendor
 load_dotenv()
 
 engine = create_engine(config.DATABASE_URI)

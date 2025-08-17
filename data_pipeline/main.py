@@ -25,6 +25,6 @@ if __name__ == "__main__":
     api_fetch_osm.fetch_osm_data()
     api_fetch_yelp_foursquare.main()
     geocode_opencage.enrich_locations("outputs/osm_vendors.json", "outputs/osm_enriched.json")
-    geocode_opencage.enrich_locations("outputs/yelp_fsq_vendors.json", "outputs/yelp_fsq_enriched.json")
+    #geocode_opencage.enrich_locations("outputs/yelp_fsq_vendors.json", "outputs/yelp_fsq_enriched.json")
     data_processor.process_and_store(["outputs/osm_enriched.json", "outputs/yelp_fsq_enriched.json"])
     print("Pipeline complete! vendors.db populated.")

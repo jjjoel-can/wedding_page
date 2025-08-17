@@ -24,3 +24,6 @@ Thumbs.db
 
 # ignore vscdoe
 .vscode
+
+# ignore data 
+yelp_fsq_vendors.json
