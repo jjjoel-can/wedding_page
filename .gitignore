@@ -27,3 +27,6 @@ Thumbs.db
 
 # ignore data 
 yelp_fsq_vendors.json
+
+# ignore all json files in outputs folder
+outputs/*.json
