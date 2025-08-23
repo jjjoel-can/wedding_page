@@ -9,11 +9,11 @@ import os
 import sys
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+#logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Logs only to a file named 'app.log' in the same directory
 logging.basicConfig(
-    filename='api_fetch_yelp_foursquare.log',
+    filename='outputs/api_fetch_yelp_foursquare.log',
     filemode='a',  # 'a' for append, 'w' for overwrite
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'

@@ -21,11 +21,28 @@ WEDDING_CATEGORIES = [
     "wedding_planning", "photographers", "caterers", "event_venues", "florist"
 ]
 
-# OSM tags for wedding-related queries
+# # OSM tags for wedding-related queries
+# OSM_TAGS = {
+#     "amenity": ["event_venue", "community_centre"],
+#     "shop": ["florist", "caterer"],
+#     "wedding": True  # Keyword search
+# }
+
 OSM_TAGS = {
-    "amenity": ["event_venue", "community_centre"],
-    "shop": ["florist", "caterer"],
-    "wedding": True  # Keyword search
+    "shop": [
+        "florist", "jewelry", "caterer", "beauty", "hairdresser", 
+        "wedding", "pastry", "tailor", "travel_agency", "wine"
+    ],
+    "amenity": [
+        "restaurant", "cafe", "bar", "pub", "place_of_worship",
+        "community_centre", "social_club"
+    ],
+    "tourism": [
+        "hotel", "guest_house", "apartment", "hostel"
+    ],
+    "craft": [
+        "photographer", "caterer", "planner", "dressmaker"
+    ]
 }
 
 # Database URI (override in .env if needed)
