@@ -28,22 +28,39 @@ WEDDING_CATEGORIES = [
 #     "wedding": True  # Keyword search
 # }
 
-OSM_TAGS = {
-    "shop": [
-        "florist", "jewelry", "caterer", "beauty", "hairdresser", 
-        "wedding", "pastry", "tailor", "travel_agency", "wine"
-    ],
-    "amenity": [
-        "restaurant", "cafe", "bar", "pub", "place_of_worship",
-        "community_centre", "social_club"
-    ],
-    "tourism": [
-        "hotel", "guest_house", "apartment", "hostel"
-    ],
-    "craft": [
-        "photographer", "caterer", "planner", "dressmaker"
-    ]
-}
+# Note: OSM coverage varies; we include direct wedding tags and supportive categories.
+OSM_TAGS = [
+    ('shop', 'wedding'),         # bridal shops
+    ('shop', 'florist'),         # florists
+    ('craft', 'photographer'),   # photographers (service)
+    ('shop', 'photo'),           # photo shops (sometimes also photographers)
+    ('shop', 'hairdresser'),     # hair stylist
+    ('amenity', 'beauty_salon'), # makeup/beauty
+    # Venues – sparsely tagged but worth checking
+    ('amenity', 'community_centre'),
+    ('amenity', 'conference_centre'),
+    ('amenity', 'banquet_hall'),
+    ('amenity', 'events_venue'),
+    # Caterers – not very standardized; 'craft=caterer' exists sometimes
+    ('craft', 'caterer'),
+]
+
+# OSM_TAGS = {
+#     "shop": [
+#         "florist", "jewelry", "caterer", "beauty", "hairdresser", 
+#         "wedding", "pastry", "tailor", "travel_agency", "wine"
+#     ],
+#     "amenity": [
+#         "restaurant", "cafe", "bar", "pub", "place_of_worship",
+#         "community_centre", "social_club"
+#     ],
+#     "tourism": [
+#         "hotel", "guest_house", "apartment", "hostel"
+#     ],
+#     "craft": [
+#         "photographer", "caterer", "planner", "dressmaker"
+#     ]
+# }
 
 # Database URI (override in .env if needed)
 DATABASE_URI = os.getenv("DATABASE_URI", "sqlite:///vendors.db")

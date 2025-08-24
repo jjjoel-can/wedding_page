@@ -1,263 +1,236 @@
-# # api_fetch_osm.py
-# import overpy
-# import json
-# import config  # Import Sicily config
-# from dotenv import load_dotenv
-# load_dotenv()
-
-# # Optional: import osmnx as ox  # For advanced fetches [osmnx.readthedocs.io]
-
-# api = overpy.Overpass()
-
-# def fetch_osm_data():
-#     vendors = []
-#     # query = f"""
-#     # [out:json];
-#     # area["name"="Sicily"]->.searchArea;
-#     # (node["shop"~"florist|caterer"](area.searchArea);
-#     #  way["amenity"~"event_venue"](area.searchArea););
-#     # out body;
-#     # """
-#     query = f"""
-#     [out:json];
-#     area["name"="Sicily"]->.searchArea;
-#     node(area.searchArea);
-#     out body;
-#     """
-#     # Alternatively, use bbox: node({config.SICILY_BBOX.split(',')})
-#     result = api.query(query)
-    
-#     # Inspect nodes
-#     print("Nodes:")
-#     for node in result.nodes:
-#         print(f"ID: {node.id}, Latitude: {node.lat}, Longitude: {node.lon}, Tags: {node.tags}")
-
-#     # Inspect ways
-#     print("\nWays:")
-#     for way in result.ways:
-#         print(f"ID: {way.id}, Nodes: {way.nodes}, Tags: {way.tags}")
-
-#     # Inspect relations
-#     print("\nRelations:")
-#     for relation in result.relations:
-#         print(f"ID: {relation.id}, Members: {relation.members}, Tags: {relation.tags}")
-    
-#     for way in result.ways:
-#         print(f"Processing way: {way.id}")
-#         tags = way.tags
-#         vendor = {
-#             "name": tags.get("name", "Unknown"),
-#             "service_type": tags.get("shop") or tags.get("amenity") or "unknown",
-#             "address": tags.get("addr:street", ""),
-#             "city": tags.get("addr:city", ""),
-#             "contact": tags.get("phone", ""),
-#             "website": tags.get("website", "")
-#         }
-#         vendors.append(vendor)
-    
-#     # Optional: Use OSMnx for buildings/networks
-#     # G = ox.features_from_bbox(*map(float, config.SICILY_BBOX.split(',')), tags={"building": True})
-    
-#     with open("osm_vendors.json", "w") as f:
-#         json.dump(vendors, f)
-#     print(f"Fetched {len(vendors)} OSM vendors for Sicily.")
-
-# if __name__ == "__main__":
-#     fetch_osm_data()
-
 # api_fetch_osm.py
-
-# data_pipeline/api_fetch_osm.py
-import overpy
-import json
 import os
+import json
+import time
+import overpy
 import config
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
-# Ensure the output directory exists
-os.makedirs("outputs", exist_ok=True)
-OUTPUT_FILE = "outputs/osm_vendors.json"
+# Overpass client with some retry resilience
+api = overpy.Overpass(max_retry_count=3, retry_timeout=10)
 
-WEDDING_TAGS = config.OSM_TAGS  # Use the tags defined in config.py
+# Read OSM filters from config
+OSM_FILTERS = config.OSM_TAGS
+
+# Name regex to capture Italian/English wedding words in POI names
+NAME_REGEX = r"(spos|sposa|sposi|nozz|matrimoni|matrimonio|wedding)"
 
 
-def build_overpass_query():
-    """Builds the Overpass QL query string from the WEDDING_TAGS dictionary."""
-    query_parts = []
-    for key, values in WEDDING_TAGS.items():
-        # Creates a regex string like "florist|jewelry|caterer"
-        regex_values = "|".join(values)
-        # Adds lines for both nodes and ways to the query
-        query_parts.append(f'node["{key}"~"{regex_values}"](area.searchArea);')
-        query_parts.append(f'way["{key}"~"{regex_values}"](area.searchArea);')
-
-    # Join all the individual query parts into a single block
-    full_query_block = "\n  ".join(query_parts)
-
-    query = f"""
-    [out:json][timeout:120];
-    area["name"="Sicily"]->.searchArea;
-    (
-      {full_query_block}
-    );
-    out body;
-    >;
-    out skel qt;
+def _build_overpass_query() -> str:
     """
+    Build an Overpass QL query for Sicily (ISO3166-2=IT-82) that returns nodes/ways/relations
+    matching configured OSM filters, plus a name-based fallback regex for wedding keywords.
+
+    Returns:
+        str: The complete Overpass QL query string.
+    """
+    parts = []
+    for k, v in OSM_FILTERS:
+        parts.append(f'nwr(area.a)["{k}"="{v}"];')
+    # Fallback: any POI whose name mentions weddings (Italian / English)
+    parts.append(f'nwr(area.a)["name"~"{NAME_REGEX}", i];')
+
+    union = "\n  ".join(parts)
+    query = f"""
+[out:json][timeout:180];
+area["ISO3166-2"="IT-82"]->.a;
+(
+  {union}
+);
+out body center qt;
+"""
     return query
 
 
-def _extract_vendor_data(element, osm_type):
-    """Helper function to extract common data from a node or way."""
-    tags = element.tags
-    vendor = {
-        "osm_id": element.id,
-        "osm_type": osm_type,
-        "name": tags.get("name", "N/A"),
-        "service_type": (
-            tags.get("shop") or
-            tags.get("amenity") or
-            tags.get("tourism") or
-            tags.get("craft") or
-            "unknown"
-        ),
-        "lat": None,
-        "lon": None,
-        "address": tags.get("addr:full") or f"{tags.get('addr:street', '')} {tags.get('addr:housenumber', '')}".strip(),
-        "city": tags.get("addr:city", ""),
-        "postcode": tags.get("addr:postcode", ""),
-        "contact": tags.get("phone") or tags.get("contact:phone", ""),
-        "website": tags.get("website") or tags.get("contact:website", ""),
-        "source": "osm"
-    }
-    
-    # Get coordinates based on element type
-    if osm_type == 'node':
-        vendor["lat"] = float(element.lat)
-        vendor["lon"] = float(element.lon)
-    elif osm_type == 'way':
-        vendor["lat"] = float(element.center_lat)
-        vendor["lon"] = float(element.center_lon)
+def _extract_contact(tags: dict, key: str) -> str:
+    """
+    Extract a contact field, prioritizing contact:* namespaced tags.
 
+    Args:
+        tags (dict): OSM tags.
+        key (str): Contact key such as 'phone', 'email', 'website'.
+
+    Returns:
+        str: The contact value or empty string.
+    """
+    return tags.get(f"contact:{key}") or tags.get(key) or ""
+
+
+def _extract_city(tags: dict) -> str:
+    """
+    Extract a best-effort city-like value from address tags.
+
+    Args:
+        tags (dict): OSM tags.
+
+    Returns:
+        str: City/town/village value or empty string.
+    """
+    return tags.get("addr:city") or tags.get("addr:town") or tags.get("addr:village") or ""
+
+
+def _extract_address_line(tags: dict) -> str:
+    """
+    Build a single-line street address from street and housenumber when available.
+
+    Args:
+        tags (dict): OSM tags.
+
+    Returns:
+        str: Address line.
+    """
+    street = tags.get("addr:street", "")
+    housenumber = tags.get("addr:housenumber", "")
+    if street and housenumber:
+        return f"{street} {housenumber}"
+    return street or housenumber or ""
+
+
+def _service_type(tags: dict) -> str:
+    """
+    Determine a service type using common OSM keys.
+
+    Args:
+        tags (dict): OSM tags.
+
+    Returns:
+        str: Service type derived from shop/amenity/craft, or 'unknown'.
+    """
+    return tags.get("shop") or tags.get("amenity") or tags.get("craft") or "unknown"
+
+
+def _plain_raw_tags(tags: dict) -> dict:
+    """
+    Convert overpy tags mapping to a plain JSON-serializable dict with string values.
+
+    Args:
+        tags (dict): OSM tags (may be a custom mapping class from overpy).
+
+    Returns:
+        dict: Plain dict with stringified values, safe for JSON serialization.
+    """
+    if not tags:
+        return {}
+    out = {}
+    for k, v in tags.items():
+        if isinstance(v, (list, tuple, set)):
+            out[str(k)] = ", ".join(map(str, v))
+        else:
+            out[str(k)] = "" if v is None else str(v)
+    return out
+
+
+def _to_vendor(obj) -> dict:
+    """
+    Normalize an overpy Node/Way/Relation into a vendor dictionary.
+
+    Args:
+        obj: overpy.Node, overpy.Way, or overpy.Relation.
+
+    Returns:
+        dict: Normalized vendor record with coordinates and selected tags.
+    """
+    tags = obj.tags
+    name = tags.get("name") or tags.get("brand") or "Unknown"
+    service = _service_type(tags)
+
+    # Coordinates + OSM id
+    lat = None
+    lon = None
+    osm_id = None
+    if isinstance(obj, overpy.Node):
+        lat = float(obj.lat)
+        lon = float(obj.lon)
+        osm_id = f"node/{obj.id}"
+    elif isinstance(obj, overpy.Way):
+        # Requires 'out center' in query to be present
+        lat = getattr(obj, "center_lat", None)
+        lon = getattr(obj, "center_lon", None)
+        osm_id = f"way/{obj.id}"
+    else:  # Relation
+        lat = getattr(obj, "center_lat", None)
+        lon = getattr(obj, "center_lon", None)
+        osm_id = f"relation/{obj.id}"
+
+    vendor = {
+        "source": "OSM",
+        "osm_id": osm_id,
+        "name": name,
+        "service_type": service,
+        "address": _extract_address_line(tags),
+        "city": _extract_city(tags),
+        "postcode": tags.get("addr:postcode", ""),
+        "country": "Italy",
+        "lat": float(lat) if lat is not None else None,
+        "lon": float(lon) if lon is not None else None,
+        "phone": _extract_contact(tags, "phone"),
+        "email": _extract_contact(tags, "email"),
+        "website": _extract_contact(tags, "website"),
+        "instagram": tags.get("contact:instagram", ""),
+        "facebook": tags.get("contact:facebook", ""),
+        "opening_hours": tags.get("opening_hours", ""),
+        "raw_tags": _plain_raw_tags(tags),  # ensure JSON-serializable
+    }
     return vendor
 
 
-def fetch_osm_data():
+def fetch_osm_data() -> None:
     """
-    Fetches wedding-related vendor data for Sicily from the Overpass API
-    and saves it to a JSON file. 
-    """
-    api = overpy.Overpass()
-    query = build_overpass_query()
+    Execute the Overpass query for Sicily, normalize results into vendor records,
+    deduplicate by OSM id, and write them to outputs/osm_vendors.json.
 
-    # Print the query for debugging purposes
-    print("Overpass API Query:")
-    print(query)
-    
-    print("Executing Overpass API query for Sicily... (This may take a minute)")
+    Side effects:
+        - Creates the outputs directory if missing.
+        - Writes outputs/osm_vendors.json.
+    """
+    os.makedirs("outputs", exist_ok=True)
+    query = _build_overpass_query()
+
+    # Run query with a simple rate-limit retry
     try:
         result = api.query(query)
-    except Exception as e:
-        print(f"An error occurred while querying the Overpass API: {e}")
-        return
+    except overpy.exception.OverpassTooManyRequests:
+        time.sleep(20)
+        result = api.query(query)
 
-    vendors = []
-    processed_ids = set() # To avoid duplicates if an element is tagged multiple times
+    # Convert to normalized vendors and deduplicate by osm_id
+    vendors_by_id = {}
 
-    # Process all NODES from the result
-    for node in result.nodes:
-        if node.id not in processed_ids:
-            vendors.append(_extract_vendor_data(node, 'node'))
-            processed_ids.add(node.id)
+    for n in result.nodes:
+        v = _to_vendor(n)
+        vendors_by_id[v["osm_id"]] = v
 
-    # Process all WAYS from the result
-    for way in result.ways:
-        if way.id not in processed_ids:
-            vendors.append(_extract_vendor_data(way, 'way'))
-            processed_ids.add(way.id)
+    for w in result.ways:
+        v = _to_vendor(w)
+        vendors_by_id[v["osm_id"]] = v
 
-    # Save the data to the specified output file
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(vendors, f, indent=2, ensure_ascii=False)
-        
-    print(f"Success! Fetched {len(vendors)} potential vendors from OpenStreetMap.")
-    print(f"Data saved to `{OUTPUT_FILE}`.")
+    for r in result.relations:
+        v = _to_vendor(r)
+        vendors_by_id[v["osm_id"]] = v
 
-# def main():
-#     """Main function to run the OSM data fetch."""
+    vendors = list(vendors_by_id.values())
 
-#     # load_dotenv() # Load environment variables from .env file
-#     # os.makedirs("outputs", exist_ok=True)  # Ensure the output directory exists
-#     # OUTPUT_FILE = "outputs/osm_vendors.json"
-#     # WEDDING_TAGS = config.OSM_TAGS  # Use the tags defined in config.py
+    # # Save
+    # out_path = "outputs/osm_vendors.json"
+    # with open(out_path, "w", encoding="utf-8") as f:
+    #     json.dump(vendors, f, ensure_ascii=False, indent=2)
 
-#     #fetch_osm_data()
+    # Save
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_dir = os.path.join(base_dir, "outputs")
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, "osm_vendors.json")
 
-#     # build overpass query
-#     query = build_overpass_query()
-#     print("Overpass Query:") # debugging
-#     print(query)
+    print(f"Writing {len(vendors)} OSM vendors to {out_path}...")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(vendors, f, ensure_ascii=False, indent=2)
 
-#     print('calling api')
-#     api = overpy.Overpass()
-
-#     try:
-#         result = api.query(query)
-#     except Exception as e:
-#         print(f"An error occurred while querying the Overpass API: {e}")
-#     else:
-#         print("Query executed successfully.")
-#         return
-
-#     print(result)
-
-#     # If the query was successful, process the results
-#     # nodes and ways
-
-#     #vendors = []
-
-#     for node in result.nodes:
-#         print(node.id, node.lat, node.lon, node.tags)
-
-
-#     return
+    print(f"Fetched {len(vendors)} OSM vendors for Sicily -> {out_path}")
 
 
 if __name__ == "__main__":
-
-    # build overpass query
-    query = build_overpass_query()
-    print("Overpass Query:") # debugging
-    print(query)
-
-    print('calling api')
-    api = overpy.Overpass()
-
-    try:
-        result = api.query(query)
-    except Exception as e:
-        print(f"An error occurred while querying the Overpass API: {e}")
-    else:
-        print("Query executed successfully.")
-
-    print(result)
-
-    # If the query was successful, process the results
-    # nodes and ways
-
-    #vendors = []
-
-    print('*' * 50)
-    print('Nodes:')
-
-    for node in result.nodes:
-        print(node.id, node.lat, node.lon, node.tags)
-
-    print('*' * 50)
-    print('Ways:')
-
-    for way in result.ways:
-        print(way.id, way.center_lat, way.center_lon, way.tags)
+    # For debugging: uncomment to inspect query
+    print(_build_overpass_query())
+    fetch_osm_data()
