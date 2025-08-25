@@ -44,6 +44,7 @@ def process_and_store(input_files):
         v["country"] = v.get("country", "Italy")
         v["price_range"] = v.get("price_range", "Unknown")  # Placeholder; enrich later if needed
         
+        # TODO: possibly wrong tags mapping from source to DB fields
         vendor = Vendor(
             name=v["name"],
             country=v["country"],
@@ -67,4 +68,9 @@ def process_and_store(input_files):
     print(f"Stored {len(unique_vendors)} unique vendors in DB.")
 
 if __name__ == "__main__":
-    process_and_store(["osm_enriched.json", "yelp_fsq_enriched.json"])
+
+    #base_dir = os.path.dirname(os.path.abspath(__file__))
+    out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs")
+    osm_enriched = os.path.join(out_dir, "osm_enriched.json")
+    yelp_fsq_enriched = os.path.join(out_dir, "yelp_fsq_enriched.json")
+    process_and_store([osm_enriched, yelp_fsq_enriched])
